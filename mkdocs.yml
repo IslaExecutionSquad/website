@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - Plastic Memories Visual Novel:
     - Patch Download: patch.md
-    - PlaMemo Trailers: install-guide/trailer.md
+    - Trailers: install-guide/trailer.md
     - Patch Installation:
       - Introduction: install-guide/Introduction.md
       - Prerequisites: install-guide/install.md

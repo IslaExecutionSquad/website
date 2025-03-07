@@ -33,20 +33,45 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageCount = images.length / 2;
     const imageWidth = images[0].clientWidth;
 
-    // Set the track width based on the number of images
     track.style.width = `${imageWidth * imageCount * 1}px`;
 
-    // Clone images for seamless scrolling
     for (let i = 0; i < imageCount; i++) {
         const clone = images[i].cloneNode(true);
         track.appendChild(clone);
     }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const links = [
+        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", //Banner 1
+        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 2
+        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 3
+        "https://mangadex.org/title/64897926-3836-4307-a89d-86fb4d4ae4af/steins-gate-hiyoku-renri-no-sweets-honey", // Banner 4
+        "/patch", // Banner 5
+        "https://mangadex.org/title/b65df83a-afc3-43c9-8bc5-0ba45ea55ed7/tari-tari", // Banner 6
+        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 7
+        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 8
+        "/patch", // Banner 9
+        "https://example.com/link10", // Banner 10
+        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
+        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 12
+        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
+        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 14
+        "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
+    ];
+
+    document.querySelectorAll(".carousel-image").forEach((img, index) => {
+        const actualIndex = index % links.length;
+        img.addEventListener("click", function () {
+            window.open(links[actualIndex], "_blank");
+        });
+
+        img.style.cursor = "pointer";
+    });
+});
 </script>
 # Our Translation Projects
 <div class="carousel">
   <div class="carousel-track">
-    <!-- Original set -->
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -61,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <!-- Duplicate set for infinite scrolling effect -->
+    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -76,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
+    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -90,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
+    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -104,12 +131,9 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
+    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
   </div>
 </div>
-
-<!-- <div class="banner-container">
-  <img src="assets/images/banner.webp" alt="Banner" class="banner-img">
-</div> -->
 
 ## Visual Novel
 <div class="project-row">
