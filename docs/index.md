@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 7
         "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 8
         "/patch", // Banner 9
-        "https://example.com/link10", // Banner 10
+        "https://mangadex.org/title/7673f29d-9a4c-43aa-86f8-6136c181cc31/plastic-memories-say-to-good-bye", // Banner 10
         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
         "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 12
         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13

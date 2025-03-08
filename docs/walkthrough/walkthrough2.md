@@ -6,7 +6,7 @@
 The basic game structure is as shown
 
   <div class="image-container">
-  <img src="/assets/images/image53.webp" style="width: auto;" alt="Route Flow">
+    <img src="/assets/images/image53.webp" style="width: auto;" alt="Route Flow">
   </div>
 
 - Selecting “New Game” immediately puts you at the start of the common route.   
@@ -23,7 +23,7 @@ The basic game structure is as shown
 - The text in a choice box will be white if it has never been selected before, and light red if it has previously been selected.
 
 <div class="image-container">
-<img src="/assets/images/image24.webp" style="width: auto;" alt="Route Flow">
+  <img src="/assets/images/image24.webp" style="width: auto;" alt="Route Flow">
 </div>
 <span class="c27">
 Example image where the top choice has previously been selected and the bottom has not.
@@ -37,7 +37,8 @@ Example image where the top choice has previously been selected and the bottom h
 - The choices in the common route that grant alternate route points always involve the heroine for that route. For example, the above picture is a choice you specifically make during an interaction with Michiru, and that choice can grant a Michiru route point.  
 - There are up to two points that can be earned for each route, and if there is a tie for point values after making the “partners” decision at the fireworks scene, the coding prioritizes the alternate routes in this order:
 
-Michiru \> Kazuki \> Sherry \> Eru
-
+<figure markdown="span">
+  <figcaption><span class="highlight orange">Michiru</span> > <span class="highlight red">Kazuki</span> > <span class="highlight grey">Sherry</span> > <span class="highlight yellow">Eru</span></figcaption>
+</figure>
 - There are no choices to be made in any alternate route.
 

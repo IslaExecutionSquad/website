@@ -437,3 +437,24 @@
     }
 
 }
+
+.highlight {
+    padding: 2px 4px;
+    border-radius: 8px;
+    color: black;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .red {
+    background-color: red;
+  }
+  .orange {
+    background-color: darkorange
+  }
+  .grey {
+    background-color: lightgrey
+  }
+  .cyan {
+    background-color: cyan;
+  }

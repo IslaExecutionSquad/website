@@ -39,7 +39,7 @@
 </style>
 
 # Common Route Choices  
-A highlighted choice indicates that it grants a point toward the color-coded alternate route for Michiru, Kazuki, Sherry, or Eru. White choices are neutral. Additional effects will be noted when relevant. The assumed effect is a short, unique dialogue set.
+A highlighted choice indicates that it grants a point toward the color-coded alternate route for <span class="highlight orange">Michiru</span>, <span class="highlight red">Kazuki</span>, <span class="highlight grey">Sherry</span>, or <span class="highlight yellow">Eru</span>. White choices are neutral. Additional effects will be noted when relevant. The assumed effect is a short, unique dialogue set.
 
 <div class="flex-table">
   <div class="flex-row header">
@@ -52,28 +52,28 @@ A highlighted choice indicates that it grants a point toward the color-coded alt
   <div class="flex-row">
     <div class="flex-cell">Choice 1</div>
     <div class="flex-cell">You’re not incompetent.</div>
-    <div class="flex-cell">You’re actually pretty nice.</div>
+    <div class="flex-cell"><span class="highlight orange">You’re actually pretty nice.</span></div>
     <div class="flex-cell"></div>
   </div>
 
   <div class="flex-row">
     <div class="flex-cell">Choice 2</div>
     <div class="flex-cell">I want to become closer with Isla.</div>
-    <div class="flex-cell">I want to work towards independence.</div>
+    <div class="flex-cell"><span class="highlight red">I want to work towards independence.</span></div>
     <div class="flex-cell"></div>
   </div>
 
   <div class="flex-row">
     <div class="flex-cell">Choice 3</div>
     <div class="flex-cell">Are you two dating?</div>
-    <div class="flex-cell">You must have it rough…</div>
+    <div class="flex-cell"><span class="highlight grey">You must have it rough…</span></div>
     <div class="flex-cell"></div>
   </div>
 
   <div class="flex-row">
     <div class="flex-cell">Choice 4</div>
     <div class="flex-cell">What are you planning?</div>
-    <div class="flex-cell">Is this stuff always on your mind?</div>
+    <div class="flex-cell"><span class="highlight yellow">Is this stuff always on your mind?</span></div>
     <div class="flex-cell"></div>
   </div>
 
@@ -93,14 +93,14 @@ A highlighted choice indicates that it grants a point toward the color-coded alt
 
   <div class="flex-row">
     <div class="flex-cell">Choice 7</div>
-    <div class="flex-cell">Thank you.</div>
+    <div class="flex-cell"><span class="highlight orange">Thank you.</span></div>
     <div class="flex-cell">I’m sorry.</div>
     <div class="flex-cell"></div>
   </div>
 
   <div class="flex-row">
     <div class="flex-cell">Choice 8</div>
-    <div class="flex-cell">I’ll chase after Marcia by myself.</div>
+    <div class="flex-cell"><span class="highlight red">I’ll chase after Marcia by myself.</span></div>
     <div class="flex-cell">I’ll chase after Marcia with Isla.</div>
     <div class="flex-cell"></div>
   </div>
@@ -108,13 +108,13 @@ A highlighted choice indicates that it grants a point toward the color-coded alt
   <div class="flex-row">
     <div class="flex-cell">Choice 9</div>
     <div class="flex-cell">A terrorist?</div>
-    <div class="flex-cell">A peeping Tom?</div>
+    <div class="flex-cell"><span class="highlight grey">A peeping Tom?</span></div>
     <div class="flex-cell"></div>
   </div>
 
   <div class="flex-row">
     <div class="flex-cell">Choice 10</div>
-    <div class="flex-cell">That seems really difficult.</div>
+    <div class="flex-cell"><span class="highlight yellow">That seems really difficult.</span></div>
     <div class="flex-cell">You don’t look okay with it.</div>
     <div class="flex-cell"></div>
   </div>
