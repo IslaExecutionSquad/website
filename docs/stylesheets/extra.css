@@ -311,6 +311,7 @@
     border-radius: 8px;
     display: block;
     margin-bottom: 10px;
+    width: 220px;
 }
 
 .contact-buttons {
@@ -458,3 +459,68 @@
   .cyan {
     background-color: cyan;
   }
+
+  .highlight2 {
+    padding: 2px 4px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+  }
+
+  .black {
+    background-color: black;
+  }
+
+.credits-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.credits-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: auto;
+}
+
+.credits-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    width: 475px;
+    box-sizing: border-box;
+}
+
+[data-md-color-scheme="default"] .credits-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 475px;
+    box-sizing: border-box;
+}
+
+.credits-item img {
+    width: 256px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px
+}
+
+.credits-text {
+    flex-grow: 1;
+}
+
+.name-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.role-text {
+    font-size: 20px;
+}

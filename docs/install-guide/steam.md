@@ -7,7 +7,7 @@
     width: fit-content;
     margin: 0 auto;
     transform: scale(1.2);
-    padding-top: 45px
+    padding-top: 45px;
 }
 
 .game-background {
@@ -24,14 +24,14 @@
     display: flex;
     gap: 2px;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .game-content2 {
     display: flex;
     gap: 15px;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .game-item {
@@ -41,7 +41,7 @@
 }
 
 .game-image {
-    display: block;
+    display: flex;
     width: 100%;
     transition: transform 0.3s ease-out;
 }
@@ -124,7 +124,7 @@
 
 11. Again under “Recent Games”, right-click “Plastic Memories”, hover over “Manage”, and select “Set Custom Artwork".  
 12. There are three Steam Library cover art variations: “steam\_libary.png”, “steam\_libary\_english.png”, and “steam\_libary\_nologo.png”. Choose whichever one you like.  
-13. Optional: Once more, right-click on Plastic Memories, select “Properties”, and click on the icon of Tsukasa and Isla. This will bring up a different file explorer. At the bottom, change the “File Type” from “Program Files (\*.exe)” to “All Files (\*.\*)”. Then navigate back to the Steam Assets folder and select “icon.png”.  
+13. Optional: Once more, right-click on Plastic Memories, select “Properties”, and click on the icon of Tsukasa and Isla. This will bring up a different file explorer. At the bottom, change the “File Type” from “Program Files (\*.exe)” to “All Files (\*.\*)”. Then navigate back to the Steam Assets folder and select “icon.png”.   
 14. Now Plastic Memories will match the rest of your Steam Library.
 
 <div class="game-container">
@@ -135,9 +135,9 @@
         <div class="game-item">
             <img src="/assets/images/steam_capsule_english.webp" style="width: 644px;" class="game-image">
         </div>
-        <div class="game-item">
+        <!-- <div class="game-item">
             <img src="/assets/images/steam_library_no_logo.webp" style="width: 200px;" class="game-image">
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -150,7 +150,7 @@ These assets have been made available on [SteamGridDB](https://www.steamgriddb.c
 
 1. In the top left corner of Steam, click “Steam” and select “Settings”.  
 2. In Settings, click on “Controller”.  
-3. Depending on what controller you use, tick Enable Steam Input for PlayStation/Xbox/Switch/Generic Controllers.
+3. Depending on what controller you use, tick "Enable Steam Input for PlayStation/Xbox/Switch/Generic Controllers".
     ‎
     <div class="image-container">
     <img src="/assets/images/image27.webp" style="width: 600px;" alt="Controls">

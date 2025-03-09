@@ -35,7 +35,9 @@ The Isla Execution Squad was initially formed in 2020 to create an English patch
 ![ShwampBam Gravatar](https://www.gravatar.com/avatar/f16d78354abaef76dbdabdd425e1f1b1?s=200"){ class="gravitar-img" align=left }
 
 ## HoodedTissue
-**Title subject to change**
+**Placeholder title subject to change**
+
+<br>
 
 <div class="contact-buttons">
   <a href="https://github.com/HoodedTissue" class="contact-button" title="GitHub">
@@ -52,6 +54,8 @@ The Isla Execution Squad was initially formed in 2020 to create an English patch
 ## Shaggy
 **Placeholder till I write something**
 
+<br>
+
 <div class="contact-buttons">
   <a href="https://bsky.app/profile/shaggy.islaexecutionsquad.com" class="contact-button" title="BlueSky">
     <img src="/assets/icons/bluesky.svg" alt="BlueSky" class="contact-icon">
@@ -65,6 +69,7 @@ The Isla Execution Squad was initially formed in 2020 to create an English patch
 </div>
 ---
 
+![ShadeSlayer Image](assets/images/avatars/shade.png){ class="gravitar-img" align=left }
 ## ShadeSlayer
 **You know the rules and so do I (do I)**
 

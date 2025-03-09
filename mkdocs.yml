@@ -25,7 +25,7 @@ nav:
       - Trophy List: walkthrough/trophy-list.md
     - Developer Notes: devnotes.md
     - Credits: credits.md
-    # - Project Resources: install-guide/resources.md
+    # - Resources: install-guide/resources.md
   - IES Novels: https://novels.islaexecutionsquad.com/
   - About Us: about.md
 
@@ -61,6 +61,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   font:
+    text: Nunito
     code: Red Hat Mono
 
 extra:
