@@ -18,7 +18,7 @@
       <img src="/assets/images/vitadl.webp" alt="Plastic Memories" class="project-img">
     </a>
     <div class="patch-button-container">
-  <a href="/patch" class="md-button md-button--primary">Download PS Vita Patch</a>
+  <a href="/patch" class="md-button md-button--primary">Download Vita Patch</a>
 </div>
   </div>
 </div>

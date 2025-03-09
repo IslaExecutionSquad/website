@@ -41,7 +41,7 @@
 - Begins automatically after selecting the “in love” option during the fireworks scene.  
 - After a few story segments, you get sent to Schedule Mode.
 <div class="image-container">
-<img src="/assets/images/image22.webp" style="width: auto;" alt="Route Flow">
+  <img src="/assets/images/image22.webp" style="width: auto;" alt="Route Flow">
 </div>
 - You are given 23 days to select from 69 different events you can do with Isla.  
 - These events are split between Work, Rest, Date, and Story, shown below.

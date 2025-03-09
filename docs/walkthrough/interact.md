@@ -1,13 +1,7 @@
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }
-</style>
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <style>
+
         .content {
             padding: 20px;
         }
@@ -27,13 +21,7 @@
             bottom: 15x;
             right: 10px;
             cursor: pointer;
-            background: rgba(255, 255, 255, 0.8);
-            color: black;
             border-radius: 8px;
-            padding: 4px;
-            font-size: 14px;
-            font-weight: bold;
-            font-weight: bold;
         }
         .top-left-image {
             position: absolute;
@@ -42,16 +30,14 @@
             width: 200px;
             height: auto;
          }
-    </style>
-</head>
-</html>
+</style>
 
 # Interaction Mode
 <body>
     <div class="content">
         <div class="game-container">
             <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-            <div class="fullscreen-btn" onclick="SetFullscreen(1)">Fullscreen</div>
+            <div class="fullscreen-btn"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
             <img src="monday.webp" alt="Monday Image" class="top-left-image">
         </div>
     </div>
@@ -85,22 +71,54 @@
     - Cold: Stone-faced. Isla wears this expression when the player has gained 7 points or less.  
     - Happy: A gentle smile. Isla wears this expression when the player has gained between 8 and 20 points.  
     - Overjoyed: Blushing cheeks, usually with her arms held up excitedly. Isla wears this expression when the player has gained 21 or more points.  
-- These expressions are soft point counters, and the only indication the game gives the player for what ending they will currently get.  
-  
+- These expressions are soft point counters, and the only indication the game gives the player for what ending they will currently get.
+
+<div class="steam-container">
+    <div class="game-content2">
+        <div class="game-item2">
+            <img src="/assets/images/image13.webp" style="width: 213px;" class="game-image">
+        </div>
+        <div class="game-item2">
+            <img src="/assets/images/image6.webp" style="width: 200px;" class="game-image">
+        </div>
+        <div class="game-item2">
+            <img src="/assets/images/image14.webp" style="width: 200px;" class="game-image">
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- ![Cold](/assets/images/image13.webp)
+![Happy](/assets/images/image6.webp)
+![Overjoyed](/assets/images/image14.webp) -->
+
 ### Touching
 
 - By using the touchscreen or clicking the mouse, the player can touch Isla. Touches include taps and holds.
+
+<div class="steam-container">
+    <div class="game-content2">
+        <div class="game-item2">
+            <img src="/assets/images/image7.webp" style="width: 200px;" class="game-image">
+        </div>
+        <div class="game-item2">
+            <img src="/assets/images/image11.webp" style="width: 380px;" class="game-image">
+        </div>
+    </div>
+</div>
+<br>
+
 - Isla has five areas that react uniquely to being touched: head, body, legs,   
   left arm, and right arm.  
 - Some reactions are universal, and will occur regardless of emotion, area, or touch type. These include:
 
     - “Hmph.”  
     - “Ehehe.”  
-    - “Uwah, you surprised me\!”  
+    - “Uwah, you surprised me!”  
     - “Do you… want to hold hands?”  
     - “Geez, don’t tease me like that.”  
-    - “Mhm\!”  
-    - “Wooh\!”  
+    - “Mhm!”  
+    - “Wooh!”  
     - “Sure, I’ll pour some tea.”  
     - “Hm?”  
     - “What is it?”

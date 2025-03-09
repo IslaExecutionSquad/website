@@ -1,54 +1,6 @@
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }
-
-.game-container {
-    position: relative;
-    width: fit-content;
-    margin: 0 auto;
-    transform: scale(1.2);
-    padding-top: 45px;
-}
-
-.game-background {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
-
-.game-content {
-    display: flex;
-    gap: 2px;
-    position: relative;
-    z-index: -1;
-}
-
-.game-content2 {
-    display: flex;
-    gap: 15px;
-    position: relative;
-    z-index: -1;
-}
-
-.game-item {
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease-out;
-}
-
-.game-image {
-    display: flex;
-    width: 100%;
-    transition: transform 0.3s ease-out;
-}
-
-.game-item:hover {
-    transform:  scale(1.03);
-}
 </style>
 # Playing Through Steam  
 ### Adding Plastic Memories to Steam
@@ -82,7 +34,7 @@
 
     ‎ 
 
-    <div class="game-container">
+    <div class="steam-container">
         <img src="/assets/images/image42.webp" class="game-background">
         <div class="game-content">
             <div class="game-item">
@@ -105,7 +57,7 @@
 
     ‎ 
 
-    <div class="game-container">
+    <div class="steam-container">
         <img src="/assets/images/image42.webp" class="game-background">
         <div class="game-content">
             <div class="game-item">
@@ -127,7 +79,7 @@
 13. Optional: Once more, right-click on Plastic Memories, select “Properties”, and click on the icon of Tsukasa and Isla. This will bring up a different file explorer. At the bottom, change the “File Type” from “Program Files (\*.exe)” to “All Files (\*.\*)”. Then navigate back to the Steam Assets folder and select “icon.png”.   
 14. Now Plastic Memories will match the rest of your Steam Library.
 
-<div class="game-container">
+<div class="steam-container">
     <div class="game-content2">
         <div class="game-item">
             <img src="/assets/images/steam_library_english.webp" style="width: 200px;" class="game-image">
