@@ -30,7 +30,8 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
+    flex-wrap: wrap;
 }
 
 .project-row-patch {
@@ -51,9 +52,9 @@
 }
 
 .project-item2 {
-    float: right;
+    /* float: right; */
     margin-left: 20px;
-    width: 550px;
+    width: 500px;
     height: auto;
     align-items: center;
     justify-content: center;

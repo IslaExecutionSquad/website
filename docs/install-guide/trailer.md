@@ -14,7 +14,7 @@
 </script>
 <div class="video-row">
   <div class="video-item">
-    <h1>Plastic Memories Teaser Trailer</h1>
+    <h1>Teaser Trailer</h1>
     <div class="video-wrapper">
       <video id="video1" class="video-player" controls>
         <source src="/assets/videos/Plastic_Memories_Teaser.mp4" type="video/mp4">
@@ -25,7 +25,7 @@
   </div>
 
   <div class="video-item">
-    <h1>Plastic Memories Opening Movie</h1>
+    <h1>Opening Movie</h1>
     <div class="video-wrapper">
       <video id="video2" class="video-player" controls>
         <source src="/assets/videos/op_1080_web.mp4" type="video/mp4">
