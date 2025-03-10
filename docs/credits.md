@@ -15,8 +15,7 @@ Credit for the manual goes to:
 ## Isla Execution Squad - Plastic Memories English Patch
 
 <div class="credits-list">
-
-<div class="credits-row">
+  <div class="credits-row">
     <div class="credits-item">
       <img src="https://www.gravatar.com/avatar/f16d78354abaef76dbdabdd425e1f1b1?s=200" alt="Trophy Icon">
       <div class="credits-text">
@@ -24,9 +23,6 @@ Credit for the manual goes to:
         <p class="role-text">Project Leader</p>
       </div>
     </div>
-</div>
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="https://www.gravatar.com/avatar/27b53b4d9558b501304bb1d00b246b57?s=200" alt="Trophy Icon">
       <div class="credits-text">
@@ -34,13 +30,6 @@ Credit for the manual goes to:
         <p class="role-text">Head Translator</p>
       </div>
     </div>
-  </div>
-
-</div>
-<br>
-<div class="credits-list">
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/shaggy.gif" alt="Trophy Icon">
       <div class="credits-text">
@@ -48,9 +37,6 @@ Credit for the manual goes to:
         <p class="role-text">Asset Editor</p>
       </div>
     </div>
-  </div>
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/bloody.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -58,12 +44,6 @@ Credit for the manual goes to:
         <p class="role-text">Game Consultant</p>
       </div>
     </div>
-  </div>
-</div>
-<br>
-<div class="credits-list">
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/marche.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -71,9 +51,6 @@ Credit for the manual goes to:
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-  </div>
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/alma.gif" alt="Trophy Icon">
       <div class="credits-text">
@@ -81,13 +58,6 @@ Credit for the manual goes to:
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-  </div>
-
-</div>
-<br>
-<div class="credits-list">
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/rayen.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -95,9 +65,6 @@ Credit for the manual goes to:
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-  </div>
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/shade.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -105,13 +72,6 @@ Credit for the manual goes to:
         <p class="role-text">Playtester</p>
       </div>
     </div>
-  </div>
-
-</div>
-<br>
-<div class="credits-list">
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/ipatch.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -124,8 +84,7 @@ Credit for the manual goes to:
 
 ## Special Thanks
 <div class="credits-list">
-
-<div class="credits-row">
+  <div class="credits-row">
     <div class="credits-item">
       <img src="/assets/images/avatars/astro.png" alt="Trophy Icon">
       <div class="credits-text">
@@ -134,9 +93,6 @@ Credit for the manual goes to:
         <p class="role-text"><a href="https://twitch.tv/astro/">twitch.tv/astro/</a></p>
       </div>
     </div>
-  </div>
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="https://avatars.githubusercontent.com/u/4312781?v=4" alt="Trophy Icon">
       <div class="credits-text">
@@ -145,13 +101,6 @@ Credit for the manual goes to:
         <p class="role-text"><a href="https://github.com/UlyssesWu/FreeMote">FreeMote</a></p>
       </div>
     </div>
-  </div>
-
-</div>
-<br>
-<div class="credits-list">
-
-<div class="credits-row">
     <div class="credits-item">
       <img src="https://avatars.githubusercontent.com/u/10576957?v=4" alt="Trophy Icon">
       <div class="credits-text">
@@ -162,7 +111,7 @@ Credit for the manual goes to:
     </div>
   </div>
 </div>
-<br>
+
 
 - yes. - Early Live TL Transcription  
 - Haz - Live TL Transcription  

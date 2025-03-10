@@ -480,6 +480,7 @@
 
 .credits-row {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     width: 100%;
@@ -488,16 +489,28 @@
 
 .credits-item {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     padding: 10px;
     border-radius: 8px;
-    width: 475px;
+    width: 300px;
     box-sizing: border-box;
 }
 
+/* display: flex;
+flex-direction: column;
+align-items: center;
+height: auto;
+width: 326px;
+justify-content: center;
+text-align: center; */
+
 [data-md-color-scheme="default"] .credits-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
     padding: 10px;
@@ -509,7 +522,7 @@
 .credits-item img {
     width: 256px;
     height: auto;
-    margin-right: 15px;
+    align-items: center;
     border-radius: 8px
 }
 
@@ -520,10 +533,14 @@
 .name-text {
     font-weight: bold;
     font-size: 24px;
+    align-items: center;
+    text-align: center;
 }
 
 .role-text {
     font-size: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 .steam-container {

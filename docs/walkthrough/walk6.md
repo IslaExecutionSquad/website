@@ -41,7 +41,7 @@
 - The choice charts will be split between the four types of events: Work, Rest, Date, and Story. They will be listed in the order they are coded, though this does not always correspond to unlock order.  
 - Any rewards for making a choice beyond the usual short segment of unique dialogue will be noted.  
 - Choices that grant an Isla point will be highlighted in <span class="highlight cyan">cyan</span>. Several events do not grant points in any way.  
-- Event unlock chains are built in to influence the order that players experience different events, but endings are determined solely by meeting the point requirements shown [here](#bookmark=id.xgrp1n7ykljm), so unlock chains will not be covered in this guide.  
+- Event unlock chains are built in to influence the order that players experience different events, but endings are determined solely by meeting the point requirements shown [here](/walkthrough/walk4), so unlock chains will not be covered in this guide.  
 - If the scene grants a CG by default, it will not be listed as a reward.  
 - In Date events, the player can choose one of three outfits for Isla to wear, if they are unlocked. This changes her model for the day, but also creates sets of unique CGs in several Date events where each type of outfit is worn. These events will be marked with a (3) following their title.  
 - The game creates a Quick Save any time a choice is reached by default, and using the Quick Load menu is the fastest way to test unique scene differences between choices.
