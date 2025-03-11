@@ -80,8 +80,8 @@ We can guarantee that the patch execuatable is not a virus. While some security 
 !!! tip ""
     Still unsure? Have your oun antivirus like Windows Defender check your file before running it.
 
-### Are the improvements made for the English patch avalible for the Japanese version?
-For the PC a minor improvement patch was made using Bloody's fix for the conversion's broken controls, Shaggy's fix for a broken texture, and adds in DoubleEyepach's Prologue Skip. The fix can be downloaded [here](/assets/Keyboard_Fix.zip).
+## Are the improvements made for the English patch available for the Japanese version?
+For the PC a minor improvement patch was made using Bloody's fix for the conversion's broken controls, Shaggy's fix for a broken texture, and adds in DoubleEyepach's Prologue Skip. The minor improvement patch can be downloaded [here](/assets/Keyboard_Fix.zip).
 
 There is no improvement patch available for PS Vita.
 
