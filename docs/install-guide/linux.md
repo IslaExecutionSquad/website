@@ -21,7 +21,7 @@ Lutris (installation instructions can be found [here](https://lutris.net/downloa
 4. There will be a prompt to select the PC Conversion, navigate to where “**PC Port.7z**” was downloaded and select it. This file must remain compressed, Lutris will handle decompression and installation. The English Patch will automatically be downloaded by Lutris.
 
     !!! tip ""
-        The version downloaded differs slightly from the patch on Google Drive, as it doesn’t include this manual, a teaser, and steam assets.
+        The version of the patch downloaded through the installer differs slightly from the patch on Google Drive, as it doesn’t include this manual, a teaser, and steam assets.
 
 5. Lutris will then download the required fixes, the appropriate Wine version, and install everything. This process will take several minutes.  
 6. Once Lutris finishes installing, click “Launch”.  
@@ -58,14 +58,22 @@ ProtonTricks, found [here](https://flathub.org/apps/details/com.github.Matoking.
 
 1. Extract the PC conversion “**PC Port.7z**” to your desired install location.   
 2. Follow steps 1 and 2 from [PC Patch Installation](PC.md) to install the patch.  
-3. Open Steam, click “Add A Game” in the bottom left corner, and select “Add a Non-Steam Game”[^12]   
-4. Then click “Browse” to open a file explorer. By default the file explorer will only show .desktop files. There is a drop-down menu at the bottom of the explorer window. Click it and select “All Files”.   
+3. Open Steam, click “Add A Game” in the bottom left corner, and select “Add a Non-Steam Game”
+
+    !!! note ""
+        Alternatively Steam Deck/SteamOS users can right click “Plastic Memories.exe” in Dolphin file explorer and click “add to Steam”.
+
+4. Then click “Browse” to open a file explorer. By default the file explorer will only show .desktop files. There is a drop-down menu at the bottom of the explorer window. Click it and select “All Files”.
 5. Navigate to where Plastic Memories is installed, select “Plastic Memories.exe”, and hit okay.  
-6. This will create a shortcut on Steam called “Plastic Memories.exe” find it in your Steam Library, right- click on it and click properties.   
-7. Under “SHORTCUT”, rename “Plastic Memories.exe” to “Plastic Memories”.   
+6. This will create a shortcut on Steam called “Plastic Memories.exe” find it in your Steam Library, right- click on it and click properties.
+7. Under “SHORTCUT”, rename “Plastic Memories.exe” to “Plastic Memories”.
 8. Hit “PLAY”. This creates a prefix for the shortcut and launches the game. Close the game after it launches.  
 9. Next launch Protontricks.  
-10. This will open a window showing all of the Steam games on your system using Proton. Look for "Non-Steam shortcut: Plastic Memories" and select it.[^13]   
+10. This will open a window showing all of the Steam games on your system using Proton. Look for "Non-Steam shortcut: Plastic Memories" and select it.
+
+    !!! warning ""
+        If Plastic Memories was not launched in step 8 it will not show up on the list.
+
 11. In the next prompt choose “Select the default wineprefix” and press okay.  
 12. Then select “Install a Windows DLL or component” and press okay.  
 13. When prompted to install packages select “**MF** \- Microsoft Media Foundation” and “**xact** \- MS XACT Engine (32-bit only)”. This may take some time to install, please be patient.   

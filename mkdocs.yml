@@ -5,14 +5,14 @@ nav:
   - Plastic Memories Visual Novel:
     - Patch Download: patch.md
     - Trailers: install-guide/trailer.md
+    - Introduction: install-guide/Introduction.md
     - Patch Installation:
-      - Introduction: install-guide/Introduction.md
       - Prerequisites: install-guide/install.md
       - PC Patch Installation: install-guide/PC.md
       - Vita Patch Installation: install-guide/vita.md
       - Linux/Steam Deck Installation: install-guide/linux.md
-      - Playing Through Steam: install-guide/steam.md
-      - Control Options: install-guide/controls.md
+    - Playing Through Steam: install-guide/steam.md
+    - Control Options: install-guide/controls.md
     - Frequently Asked Questions: install-guide/faq.md
     - Plastic Memories Walkthrough:
       - Introduction: walkthrough/walkthrough.md

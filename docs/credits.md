@@ -109,18 +109,64 @@ Credit for the manual goes to:
         <p class="role-text"><a href="https://github.com/marcussacana/KrKrZSceneManager">KrKrZSceneManager</a></p>
       </div>
     </div>
+    <div class="credits-item">
+      <img src="/assets/images/avatars/yes.png" alt="Trophy Icon">
+      <div class="credits-text">
+        <p class="name-text">yes.</p>
+        <p class="role-text">Live TL Transcription</p>
+      </div>
+    </div>
+    <div class="credits-item">
+      <img src="/assets/images/avatars/Haz.png" alt="Trophy Icon">
+      <div class="credits-text">
+        <p class="name-text">Haz</p>
+        <p class="role-text">Live TL Transcription</p>
+      </div>
+    </div>
+    <div class="credits-item">
+      <img src="/assets/images/avatars/golden.png" alt="Trophy Icon">
+      <div class="credits-text">
+        <p class="name-text">Goldenape</p>
+        <p class="role-text">Translation</p>
+      </div>
+    </div>
+    <div class="credits-item">
+      <img src="/assets/images/avatars/13j.gif" alt="Trophy Icon">
+      <div class="credits-text">
+        <p class="name-text">13steinj</p>
+        <p class="role-text">Texture Replacing Info</p>
+      </div>
+    </div>
+    <div class="credits-item">
+      <img src="https://avatars.githubusercontent.com/u/88515571?v=4" alt="Trophy Icon">
+      <div class="credits-text">
+        <p class="name-text">hiroshiyuri</p>
+        <p class="role-text">KrKrZSceneManager Updates</p>
+        <p class="role-text"><a href="https://github.com/hiroshiyuri/scn-editor-gui">scn-editor-gui</a></p>
+      </div>
+    </div>
+    <div class="credits-item">
+      <div class="credits-text">
+        <p class="name-text">clubbedsam</p>
+        <p class="role-text">Early Proofreading</a></p>
+        <p class="name-text">Tokyoship</p>
+        <p class="role-text"><a href="https://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg">PS4 Controller Illustration</a> (PC)</a></p>
+        <p class="name-text">Kiyoe (ピーター)</p>
+        <p class="role-text">Dengeki G's Magazine Scans</a></p>
+      </div>
+    </div>
   </div>
 </div>
 
 
-- yes. - Early Live TL Transcription  
-- Haz - Live TL Transcription  
-- Goldenape - Translation  
-- clubbedsam - Early Proofreading  
-- 13steinj - Texture Replacing Info  
-- hiroshiyuri - KrKrZSceneManager <a href="https://github.com/hiroshiyuri/scn-editor-gui">Updates</a>
+<!-- - yes. - Early Live TL Transcription -->
+<!-- - Haz - Live TL Transcription   -->
+<!-- - Goldenape - Translation   -->
+<!-- - 13steinj - Texture Replacing Info --> 
+<!-- - hiroshiyuri - KrKrZSceneManager <a href="https://github.com/hiroshiyuri/scn-editor-gui">Updates</a> -->
+<!-- - clubbedsam - Early Proofreading 
 - Tokyoship - <a href="https://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg">PS4 Controller Illustration</a> (PC)  
-- Kiyoe (ピーター) - Dengeki G's Magazine Scans  
+- Kiyoe (ピーター) - Dengeki G's Magazine Scans   -->
 
 <!-- ![ShwampBam Gravatar](https://www.gravatar.com/avatar/27b53b4d9558b501304bb1d00b246b57?s=200"){ class="gravitar-img" align=left }
 

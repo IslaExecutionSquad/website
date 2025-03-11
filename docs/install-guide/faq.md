@@ -23,7 +23,7 @@ Most likely yes. The PC conversion can run on Windows 11/10/8.1/7/Vista and on L
 PCs from 2013 or newer should be able to run the game without issue.
 
 ## Can I run Plastic Memories on MacOS?  
-It should be possible with WINE or CrossOver by installing dependencies mentioned in step 13 of [Installing with Steam Play](/install-guide/steam), but this has not been tested.
+It should be possible with WINE or CrossOver by installing dependencies mentioned in step 13 of [Installing with Steam Play](/install-guide/linux/#installing-with-steam-play), but this has not been tested.
 
 Vita3k can be used to play the game on Mac. 
 
@@ -33,13 +33,13 @@ Vita3k can be used to play the game on Mac.
 ## When I launch Plastic Memories I get a System Error. How do I fix it?  
 There are four known errors that can pop up when launching Plastic Memories for the first time.
 
-* Error: “d3dx9\_43.dll was not found.” “XINPUT1\_3.dll was not found”  
+* Error: “d3dx9_43.dll was not found.” “XINPUT1_3.dll was not found”  
   Fix: Your system is missing DirectX 9.0c or a component of it, install the legacy DirectX SDK from [here](https://www.microsoft.com/en-us/download/details.aspx?id=35).  
 * Error: “msvcp140.dll is missing”  
   Fix: Install Microsoft Visual C++ x86 and x64 Redistributables from [here](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).  
 * Error: “0xc000007b” or “The application was unable to start correctly.”  
   Fix: This is a dependency issue, likely one or more dependencies is corrupt or non-functional.  
-  If reinstalling DirectX or Visual C++ fails to fix the issue, try putting [d3dx9\_43.dll](https://github.com/Shaggythecat/PlaMemo-Manual-Files/raw/main/DLL/D3DX9_43.dll) in your PlaMemo folder.
+  If reinstalling DirectX or Visual C++ fails to fix the issue, try putting [d3dx9_43.dll](https://github.com/Shaggythecat/PlaMemo-Manual-Files/raw/main/DLL/D3DX9_43.dll) in your PlaMemo folder.
 
 ## Why are cutscenes not playing?  
 You need to install the K-Lite codec basic pack from [here](https://codecguide.com/download_k-lite_codec_pack_basic.htm).
@@ -69,12 +69,12 @@ Unfortunately you can no longer easily buy Plastic Memories, because it has been
 Please support MAGES by purchasing their visual novels on PlayStation, Nintendo Switch, [Steam](https://store.steampowered.com/curator/34514991-Science-Adventure-Series/), DMM, or [GOG](https://www.gog.com/en/game/chaos_head_noah).
 
 ## Where can I download the game?
-While the PC Port of the game is unoffical the game will not be linked on this site. However the game can be found in the Plastic Memories Discord :fontawesome-brands-discord: communities.
+While the PC Port of the game is unoffical the game will not be linked on this site. However the game can be found in the Plastic Memories Discord communities.
 
 ### VirusTotal says the game is a virus.
 We can guarantee that the patch execuatable is not a virus. While some security vendoers my flag PlaMemo's execuatable as a virus it is marked as safe by major security venders like Google and Microsoft. You can view the executable's report of VirusTotal [here](https://www.virustotal.com/gui/file/955fcad95b0c5f2f253a1a3a7483d5be7935684df822079a49f5ba4ac52e628e).
 
-!!! danger ""
+!!! danger
     Do not download pre-patched versions of the game, there are several sites that distribute the game pre-patched. We cannot confirm if the content distributed by those sites are safe.
 
 !!! tip ""
@@ -85,12 +85,12 @@ For the PC a minor improvement patch was made using Bloody's fix for the convers
 
 There is no improvement patch available for PS Vita.
 
-## Is Plastic Memories  translated into [insert language here]?
-Check [PlaMemo's VNDB page](https://vndb.org/v19441) to see if there is an active or completed translation in [insert language here].
+## Is Plastic Memories translated into [insert language here]?
+Check [PlaMemo's VNDB page](https://vndb.org/v19441) to see if there is an active or completed translation in the language you're interested in.
 <!-- If not head on over to [Project Resources](/resources.md) to start your several month to multi-year journey to translate the visual novel of all time. -->
 
 !!! tip "Spanish"
-    Stop by the #spanish-general in the IES Discord :fontawesome-brands-discord: if you're intested in a Spanish trasnlation. Por que!
+    Stop by the #spanish-general in the IES Discord if you're intested in a Spanish trasnlation. Por que!
 
 ## Known Issues
 
@@ -101,4 +101,4 @@ Check [PlaMemo's VNDB page](https://vndb.org/v19441) to see if there is an activ
 * Steam Deck users will experience stuttering in cutscenes if SteamOS’s frame limiter is enabled. 
 
 !!! question ""
-    Need more help? [Join our Discord](https://discord.gg/Cpshet4QYH)
+    Need more help? [Join our Discord!](https://discord.gg/Cpshet4QYH)
