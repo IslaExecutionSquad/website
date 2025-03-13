@@ -64,15 +64,19 @@ Or you’ve installed the wrong version of the patch. Verify that you downloaded
     [Cyrillic](https://en.wikipedia.org/wiki/Cyrillic_script) characters in the file path will also cause this issue.
 
 ## Where can I buy Plastic Memories?  
-Unfortunately you can no longer easily buy Plastic Memories, because it has been delisted from the [PSN Store](https://www.jp.playstation.com/software/title/jp0745pcsg00931_00plasticmemoriesv.html). At the time of writing, you can buy a physical copy of Plastic Memories on Ebay for about $120-$200 USD.
+Unfortunately you can no longer easily buy Plastic Memories, because it has been delisted from the [PSN Store](https://www.jp.playstation.com/software/title/jp0745pcsg00931_00plasticmemoriesv.html).
+
+At the time of writing, you can buy a physical copy of Plastic Memories on Ebay for about $120-$200 USD.
+
+## Where can I download the game?
+While the PC Port of the game is an unoffical port it will not be linked on this site. You can find it in the Plastic Memories Discord communities, or that site that is a Japanese onomatopoeia for a cat's meow.
+
+As mentioned [above](#where-can-i-buy-plastic-memories), the PS Vita game cannot be purchaced anymore due to MAGES delisting the game in 2022. Though it can still be downloaded from the PSN serves, or found in the Plastic Memories Discord communities.
 
 Please support MAGES by purchasing their visual novels on PlayStation, Nintendo Switch, [Steam](https://store.steampowered.com/curator/34514991-Science-Adventure-Series/), DMM, or [GOG](https://www.gog.com/en/game/chaos_head_noah).
 
-## Where can I download the game?
-While the PC Port of the game is unoffical the game will not be linked on this site. However the game can be found in the Plastic Memories Discord communities.
-
 ### VirusTotal says the game is a virus.
-We can guarantee that the patch execuatable is not a virus. While some security vendoers my flag PlaMemo's execuatable as a virus it is marked as safe by major security venders like Google and Microsoft. You can view the executable's report of VirusTotal [here](https://www.virustotal.com/gui/file/955fcad95b0c5f2f253a1a3a7483d5be7935684df822079a49f5ba4ac52e628e).
+We can guarantee that the patch execuatable included with the patch download linked on this website, or on our Discord, is not a virus. While some security vendors my flag PlaMemo's execuatable as a virus it is marked as safe by major security vendors like Google and Microsoft. You can view the executable's report of VirusTotal [here](https://www.virustotal.com/gui/file/955fcad95b0c5f2f253a1a3a7483d5be7935684df822079a49f5ba4ac52e628e).
 
 !!! danger
     Do not download pre-patched versions of the game, there are several sites that distribute the game pre-patched. We cannot confirm if the content distributed by those sites are safe.
@@ -90,7 +94,7 @@ Check [PlaMemo's VNDB page](https://vndb.org/v19441) to see if there is an activ
 <!-- If not head on over to [Project Resources](/resources.md) to start your several month to multi-year journey to translate the visual novel of all time. -->
 
 !!! tip "Spanish"
-    Stop by the #spanish-general in the IES Discord if you're intested in a Spanish trasnlation. Por que!
+    Stop by the #spanish-general in the IES Discord if you're intested in a Spanish trasnlation. Por qué!
 
 ## Known Issues
 

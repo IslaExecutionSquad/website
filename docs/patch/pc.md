@@ -18,7 +18,7 @@ hide:
         </ul>
         <h3>Linux/Steam Deck</h3>
         <ul>
-            <li>Removed files that will not be seen by the user as the game (Download seprately) and patch are automaticly installed by Lutris.</li>
+            <li>Removed files that will not be seen by the user as the game (download seprately) and patch are automaticly installed by Lutris.</li>
             <li><a href="https://lutris.net/games/plastic-memories/">Install using Lutris.</a></li>
             <li>Installation instructions can be found <a href=/install-guide/linux>here</a>.</li>
         </ul>

@@ -16,64 +16,64 @@ Credit for the manual goes to:
 
 <div class="credits-list">
   <div class="credits-row">
-    <div class="credits-item">
-      <img src="https://www.gravatar.com/avatar/f16d78354abaef76dbdabdd425e1f1b1?s=200" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(103, 145, 201, 0.6);">
+      <img src="https://www.gravatar.com/avatar/f16d78354abaef76dbdabdd425e1f1b1?s=200" alt="The one and only">
       <div class="credits-text">
         <p class="name-text">HoodedTissue</p>
         <p class="role-text">Project Leader</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="https://www.gravatar.com/avatar/27b53b4d9558b501304bb1d00b246b57?s=200" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(255, 165, 0, 0.6);">
+      <img src="https://www.gravatar.com/avatar/27b53b4d9558b501304bb1d00b246b57?s=200" alt="Based Translator">
       <div class="credits-text">
         <p class="name-text">ShwampBam</p>
         <p class="role-text">Head Translator</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/shaggy.gif" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(5, 70, 175, 0.6);">
+      <img src="/assets/images/avatars/shaggy.gif" alt="The goat as it says in general chat">
       <div class="credits-text">
         <p class="name-text">Shaggy</p>
         <p class="role-text">Asset Editor</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/bloody.png" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(249, 197, 205, 0.6);">
+      <img src="/assets/images/avatars/bloody.png" alt="Bloody">
       <div class="credits-text">
         <p class="name-text">Bloody</p>
         <p class="role-text">Game Consultant</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/marche.png" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(172, 98, 200, 0.6);">
+      <img src="/assets/images/avatars/marche.png" alt="Marche100">
       <div class="credits-text">
         <p class="name-text">Marche100</p>
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/alma.gif" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(235, 113, 6, 0.6)">
+      <img src="/assets/images/avatars/alma.gif" alt="Alma">
       <div class="credits-text">
         <p class="name-text">Alma</p>
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/rayen.png" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(255, 255, 235, 0.6);">
+      <img src="/assets/images/avatars/rayen.png" alt="rayen">
       <div class="credits-text">
         <p class="name-text">Rayen</p>
         <p class="role-text">Proofreader</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/shade.png" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(0, 128, 0, 0.6);">
+      <img src="/assets/images/avatars/shade.png" alt="Shade The Slayer">
       <div class="credits-text">
         <p class="name-text">ShadeSlayer</p>
         <p class="role-text">Playtester</p>
       </div>
     </div>
-    <div class="credits-item">
-      <img src="/assets/images/avatars/ipatch.png" alt="Trophy Icon">
+    <div class="credits-item" style="background: rgb(139, 0, 0, 0.6);">
+      <img src="/assets/images/avatars/ipatch.png" alt="EyePacther">
       <div class="credits-text">
         <p class="name-text">DoubleEyepatch</p>
         <p class="role-text">PC Port Developer</p>
@@ -117,7 +117,7 @@ Credit for the manual goes to:
       </div>
     </div>
     <div class="credits-item">
-      <img src="/assets/images/avatars/Haz.png" alt="Trophy Icon">
+      <img src="/assets/images/avatars/haz.png" alt="Trophy Icon">
       <div class="credits-text">
         <p class="name-text">Haz</p>
         <p class="role-text">Live TL Transcription</p>
@@ -145,69 +145,28 @@ Credit for the manual goes to:
         <p class="role-text"><a href="https://github.com/hiroshiyuri/scn-editor-gui">scn-editor-gui</a></p>
       </div>
     </div>
+  </div>
+</div>
+<br>
+<div class="credits-list">
+  <div class="credits-row">
     <div class="credits-item">
-      <div class="credits-text">
-        <p class="name-text">clubbedsam</p>
-        <p class="role-text">Early Proofreading</a></p>
-        <p class="name-text">Tokyoship</p>
-        <p class="role-text"><a href="https://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg">PS4 Controller Illustration</a> (PC)</a></p>
-        <p class="name-text">Kiyoe (ピーター)</p>
-        <p class="role-text">Dengeki G's Magazine Scans</a></p>
+        <div class="credits-text">
+          <p class="name-text">clubbedsam</p>
+          <p class="role-text">Early Proofreading</p>
+      </div>
+    </div>
+    <div class="credits-item">
+        <div class="credits-text">
+          <p class="name-text">Tokyoship</p>
+          <p class="role-text"><a href="https://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg">PS4 Controller Illustration</a> (PC)</a></p>
+      </div>
+    </div>
+    <div class="credits-item">
+        <div class="credits-text">
+          <p class="name-text">Kiyoe (ピーター)</p>
+          <p class="role-text">Dengeki G's Magazine Scans</a></p>
       </div>
     </div>
   </div>
 </div>
-
-
-<!-- - yes. - Early Live TL Transcription -->
-<!-- - Haz - Live TL Transcription   -->
-<!-- - Goldenape - Translation   -->
-<!-- - 13steinj - Texture Replacing Info --> 
-<!-- - hiroshiyuri - KrKrZSceneManager <a href="https://github.com/hiroshiyuri/scn-editor-gui">Updates</a> -->
-<!-- - clubbedsam - Early Proofreading 
-- Tokyoship - <a href="https://commons.wikimedia.org/wiki/File:Dualshock_4_Layout.svg">PS4 Controller Illustration</a> (PC)  
-- Kiyoe (ピーター) - Dengeki G's Magazine Scans   -->
-
-<!-- ![ShwampBam Gravatar](https://www.gravatar.com/avatar/27b53b4d9558b501304bb1d00b246b57?s=200"){ class="gravitar-img" align=left }
-
-## <h1>ShwampBam<h1>
-**Head Translator**
-<br>
-<br>
-<br>
----
-
-![Tissue Gravatar](https://www.gravatar.com/avatar/f16d78354abaef76dbdabdd425e1f1b1?s=200"){ class="gravitar-img" align=left }
-
-## HoodedTissue
-<br>
-<br>
-<br>
----
-
-![Shaggy Gravatar](https://www.gravatar.com/avatar/83365755d00580190bd2c391cde08128?s=200"){ class="gravitar-img" align=left }
-
-## Shaggy
-<br>
-<br>
-<br>
----
-
-## ShadeSlayer
-**You know the rules and so do I (do I)**
-
-Shade, gimme Gravatar.
-
-<div class="contact-buttons">
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="contact-button" title="YouTube">
-    <img src="/assets/icons/youtube.svg" alt="Never Gonna Give You Up" class="contact-icon">
-  </a>
-</div>
-
-<!-- Special Thanks -->
-<!-- <div class="special-thanks">
-    <h3>Special Thanks</h3>
-    <p><span class="white">Astro</span> - Live Translated Plastic Memories <a href="https://twitch.tv/astro/">twitch.tv/astro/</a></p>
-    <p><span class="white">UlyssesWu</span> - FreeMote Developer</p>
-    <p><span class="white">marcussacana</span> - KrKrZSceneManager Developer</p>
-</div> -->
