@@ -57,7 +57,7 @@
     Cool huh? This is unplayable on the offical website for the Plastic Memories Visual Novel. If you found this you get a cookie. Let us know in our Discord what you think! -->
 
 - Interaction Mode is accessed following each event.  
-- Interaction Mode can be exited by holding the Circle (B) button, Z key, or Cross om PS Vita.
+- Interaction Mode can be exited by holding the Circle (B) button, Z key, or Cross on PS Vita.
 - Interaction Mode allows the player to utilize various elements to get different reactions out of Isla.  
 - Using the D-pad’s up or down buttons moves the camera focus in the desired direction, while the Square and Triangle buttons zoom in and out respectively.  
 - Pressing the Right Bumper or clicking the shirt icon takes the player to a menu that outlines currently unlocked costumes, and allows them to select from whichever one they please.  
@@ -108,8 +108,7 @@
 </div>
 <br>
 
-- Isla has five areas that react uniquely to being touched: head, body, legs,   
-  left arm, and right arm.  
+- Isla has five areas that react uniquely to being touched: head, body, legs, left arm, and right arm.  
 - Some reactions are universal, and will occur regardless of emotion, area, or touch type. These include:
 
     - “Hmph.”  
