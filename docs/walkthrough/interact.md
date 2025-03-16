@@ -148,6 +148,6 @@
 - Each of these costumes provide two unique reactions with either touch type, in any area, as long as Isla’s emotion is Happy or Overjoyed.  
 - As with other unique reactions, they are entirely random, so it may take several touches to find them.
 
-[^1]:The Interaction Mode demo used on this was found on [MAGES' offical website](https://game.mages.co.jp/plastic-memories/system/) for the game, however the demo is non-functional due to some files being misnamed.<br>
+[^1]:The Interaction Mode demo used on this page was found on [MAGES' offical website](https://game.mages.co.jp/plastic-memories/system/) for the game, however the demo is non-functional due to some files being misnamed.<br>
     - The demo is left in Japanese due to being unable to modify the demo. It uses WebGL Unity 5.4.0f.<br>
     - The demo can be experienced outside of this page [here](/walkthrough/interact/game.html).
