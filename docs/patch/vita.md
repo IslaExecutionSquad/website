@@ -13,14 +13,15 @@ hide:
         <h2>Plastic Memories - PlayStation Vita English Patch</h2>
         <h3>V1.0.1 - April 1st 2025</h3>
         <ul>
-            <li>Added an unlock for previously unavailable DLC content.</li>
-            <li>Changed how the patch archive is loaded, slighty reducing file size.</li>
-            <li><a href="https://mangadex.org/chapter/35cea89d-02fc-4bba-96c2-6b3dc8701ce1">Download v1.0.1 here.</a></li>
+            <li>Unlocked previously unavailable DLC content.</li>
+            <li>Changed how the patch archive is loaded.</li>
+            <a href="https://github.com/IslaExecutionSquad/website/releases/download/v1/Vita.7z" class="md-button md-button--primary">Download v1.0.1</a>
         </ul>
         <h3>V1.0.0 - December 23rd 2022</h3>
         <ul>
             <li>Inital Release</li>
-            <li><a href="https://drive.google.com/file/d/1PLPNwsTo-y_bxWUZx62l8e0xzMi2gVR0/view?usp=drive_link">Download v1.0.0 here.</a></li>
+            <!-- <li><a href="https://drive.google.com/file/d/1PLPNwsTo-y_bxWUZx62l8e0xzMi2gVR0/view?usp=drive_link">Download v1.0.0 here.</a></li> -->
+            <a href="https://drive.google.com/file/d/1PLPNwsTo-y_bxWUZx62l8e0xzMi2gVR0/view?usp=drive_link" class="md-button md-button--primary">Download v1.0.0</a>
         </ul>
         <h2>Notice</h2>
         <ul>

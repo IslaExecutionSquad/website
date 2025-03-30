@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 12
         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
         "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 14
-        "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
+        // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
     ];
 
     document.querySelectorAll(".carousel-image").forEach((img, index) => {
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
     <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
   </div>
 </div>
 

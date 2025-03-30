@@ -27,7 +27,7 @@ nav:
     - Credits: credits.md
     # - Resources: install-guide/resources.md
   - IES Novels: https://novels.islaexecutionsquad.com/
-  - About Us: about.md
+  # - About Us: about.md
 
 theme:
   name: material

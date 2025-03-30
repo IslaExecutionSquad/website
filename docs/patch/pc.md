@@ -13,13 +13,16 @@ hide:
         <h2>Plastic Memories - PC English Patch</h2>
         <h3>Windows (PC)</h3>
         <ul>
-            <li><a href="https://mangadex.org/chapter/35cea89d-02fc-4bba-96c2-6b3dc8701ce1">Download PC v1.0.0 here.</a></li>
+            <a href="https://github.com/IslaExecutionSquad/website/releases/download/v1/PC.7z" class="md-button md-button--primary">Download PC Patch</a>
+            <p></p>
             <li>Installation instructions can be found <a href=/install-guide/PC>here</a>.</li>
         </ul>
         <h3>Linux/Steam Deck</h3>
         <ul>
-            <li>Removed files that will not be seen by the user as the game (download seprately) and patch are automaticly installed by Lutris.</li>
-            <li><a href="https://lutris.net/games/plastic-memories/">Install using Lutris.</a></li>
+            <!-- <li><a href="https://lutris.net/games/plastic-memories/">Install using Lutris.</a></li> -->
+            <a href="https://lutris.net/games/plastic-memories/" class="md-button md-button--primary">Install using Lutris.</a>
+            <p></p>
+            <!-- <li>Removed files that will not be seen by the user as the game (download seprately) and patch are automaticly installed by Lutris.</li> -->
             <li>Installation instructions can be found <a href=/install-guide/linux>here</a>.</li>
         </ul>
         <h2>Notice</h2>
