@@ -34,7 +34,7 @@ hide:
     </div>
     <div class="project-item2">
         <!-- <p><h2>Download the latest version of the Plastic Memories English Patch by clicking the image below!<h2></p> -->
-        <a href="https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab">
+        <a href="https://github.com/IslaExecutionSquad/website/releases/download/v1/PC.7z">
             <img src="/assets/images/steam_library_english.webp" alt="PlaMemo PC" class="project-img">
         </a>
     </div>
