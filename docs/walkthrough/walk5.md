@@ -15,17 +15,6 @@
       <img src="/assets/images/image71.png" style="width: 220px; height: auto;" class="game-image">
   </div>
 </div>
-
-<!-- <div class="steam-container">
-    <div class="game-content2">
-        <div class="game-item2">
-            <img src="/assets/images/image70.png" style="width: 200px;" class="game-image">
-        </div>
-        <div class="game-item2">
-            <img src="/assets/images/image71.png" style="width: 180px;" class="game-image">
-        </div>
-    </div>
-</div> -->
 <br>
 
 - Prologue Skip is a quality of life implementation added by DoubleEyepatch, unique to the English Patch version.  

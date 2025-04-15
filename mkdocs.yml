@@ -56,10 +56,11 @@ theme:
     - markdown_grid_tables
     - navigation.indexes
     - content.footnote.tooltips
+    - announce.dismiss
   logo: assets/logo.png
   favicon: assets/logo.png
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/discord
   font:
     text: Nunito
     code: Red Hat Mono
@@ -105,3 +106,6 @@ extra_css:
 extra_javascript:
   - theme.js
   # - side.js
+
+repo_url: https://discord.gg/Cpshet4QYH
+repo_name: <h3>Join our Discord!</h3>

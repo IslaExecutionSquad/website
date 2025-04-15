@@ -165,7 +165,7 @@ Credit for the manual goes to:
     <div class="credits-item">
         <div class="credits-text">
           <p class="name-text">Kiyoe (ピーター)</p>
-          <p class="role-text">Dengeki G's Magazine Scans</a></p>
+          <p class="role-text">Dengeki G's Magazine Scans</p>
       </div>
     </div>
   </div>
