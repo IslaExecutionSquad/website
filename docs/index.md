@@ -30,8 +30,8 @@ hide:
 document.addEventListener("DOMContentLoaded", function () {
     const track = document.querySelector(".carousel-track");
     const images = document.querySelectorAll(".carousel-image");
-    const imageCount = images.length / 2;
-    const imageWidth = images[0].clientWidth;
+    const imageCount = images.length / 3.05;
+    const imageWidth = images[1].clientWidth;
 
     track.style.width = `${imageWidth * imageCount * 1}px`;
 
@@ -51,12 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 7
         "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 8
         "/patch", // Banner 9
+        "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 17 - Yeah weird placement
         "https://mangadex.org/title/7673f29d-9a4c-43aa-86f8-6136c181cc31/plastic-memories-say-to-good-bye", // Banner 10
         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
         "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 12
         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
         "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 14
         // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
+        "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 16
     ];
 
     document.querySelectorAll(".carousel-image").forEach((img, index) => {
@@ -81,57 +83,31 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner7.webp" class="carousel-image" alt="Banner 7">
     <img src="assets/images/banner8.webp" class="carousel-image" alt="Banner 8">
     <img src="assets/images/banner9.webp" class="carousel-image" alt="Banner 9">
+    <img src="assets/images/banner17.webp" class="carousel-image" alt="Banner 17">
     <img src="assets/images/banner10.webp" class="carousel-image" alt="Banner 10">
-    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
+    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 11">
+    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 12">
+    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 13">
+    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 14">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 15"> -->
+    <img src="assets/images/banner16.webp" class="carousel-image" alt="Banner 16">
     <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
     <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
     <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
     <img src="assets/images/banner4.webp" class="carousel-image" alt="Banner 4">
     <img src="assets/images/banner5.webp" class="carousel-image" alt="Banner 5">
     <img src="assets/images/banner6.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner7.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner8.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner9.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner10.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
-    <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
-    <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
-    <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
-    <img src="assets/images/banner4.webp" class="carousel-image" alt="Banner 4">
-    <img src="assets/images/banner5.webp" class="carousel-image" alt="Banner 5">
-    <img src="assets/images/banner6.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner7.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner8.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner9.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner10.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
-    <img src="assets/images/banner1.webp" class="carousel-image" alt="Banner 1">
-    <img src="assets/images/banner2.webp" class="carousel-image" alt="Banner 2">
-    <img src="assets/images/banner3.webp" class="carousel-image" alt="Banner 3">
-    <img src="assets/images/banner4.webp" class="carousel-image" alt="Banner 4">
-    <img src="assets/images/banner5.webp" class="carousel-image" alt="Banner 5">
-    <img src="assets/images/banner6.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner7.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner8.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner9.webp" class="carousel-image" alt="Banner 6">
-    <img src="assets/images/banner10.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 9">
-    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 9">
-    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 9"> -->
+    <img src="assets/images/banner7.webp" class="carousel-image" alt="Banner 7">
+    <img src="assets/images/banner8.webp" class="carousel-image" alt="Banner 8">
+    <img src="assets/images/banner9.webp" class="carousel-image" alt="Banner 9">
+    <img src="assets/images/banner17.webp" class="carousel-image" alt="Banner 17">
+    <img src="assets/images/banner10.webp" class="carousel-image" alt="Banner 10">
+    <img src="assets/images/banner11.webp" class="carousel-image" alt="Banner 11">
+    <img src="assets/images/banner12.webp" class="carousel-image" alt="Banner 12">
+    <img src="assets/images/banner13.webp" class="carousel-image" alt="Banner 13">
+    <img src="assets/images/banner14.webp" class="carousel-image" alt="Banner 14">
+    <!-- <img src="assets/images/banner15.webp" class="carousel-image" alt="Banner 15"> -->
+    <img src="assets/images/banner16.webp" class="carousel-image" alt="Banner 16">
   </div>
 </div>
 
@@ -185,6 +161,12 @@ document.addEventListener("DOMContentLoaded", function () {
     <p>Sakurada Reset</p>
     <a href="https://novels.islaexecutionsquad.com/sakurada-reset/">
       <img class="project-img sakurada-reset" src="assets/images/sr1.webp" alt="Sakurada Reset">
+    </a>
+  </div>
+  <div class="project-item">
+    <p>Imperfect Girl</p>
+    <a href="https://novels.islaexecutionsquad.com/imperfect-girl/">
+      <img class="project-img" src="assets/images/Imperfect_girl.webp" alt="Sakurada Reset">
     </a>
   </div>
 </div>

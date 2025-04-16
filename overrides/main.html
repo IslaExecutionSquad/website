@@ -21,5 +21,22 @@
 {% endblock %}
 
 {% block announce %}
-Love Lab Volume 2 Chapters <a href="https://mangadex.org/chapter/b25a7406-aacb-47ca-9863-0c61260868a4">14</a> & <a href="https://mangadex.org/chapter/5f471ac8-e280-4cae-a4b8-bf7a29f3f2c2">15</a> are now available on MangaDex!
+<div class="announce-carousel">
+  <div class="announce-item show">
+    <span class="announce-font">Scanlation:</span> Love Lab Volume 2 Chapters <a href="https://mangadex.org/chapter/b25a7406-aacb-47ca-9863-0c61260868a4">14</a> & <a href="https://mangadex.org/chapter/5f471ac8-e280-4cae-a4b8-bf7a29f3f2c2">15</a> are now available on MangaDex!
+  </div>
+  <div class="announce-item">
+    <span class="announce-font">Novels:</span> Imperfect Girl by NisiOisiN translation now in progress on <a href="https://novels.islaexecutionsquad.com/imperfect-girl/">IES Novels</a>!
+  </div>
+</div>
+<script>
+  const items = document.querySelectorAll('.announce-item');
+  let index = 0;
+
+  setInterval(() => {
+    items[index].classList.remove('show');
+    index = (index + 1) % items.length;
+    items[index].classList.add('show');
+  }, 10000);
+</script>
 {% endblock %}

@@ -593,3 +593,31 @@ text-align: center; */
 .game-item:hover {
     transform:  scale(1.03);
 }
+
+.announce-font {
+    font-family: 'PirulenRegular';
+}
+
+.announce-carousel {
+    position: relative;
+    height: 1.8em;
+    overflow: hidden;
+  }
+  
+  .announce-item {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    white-space: normal;
+    pointer-events: none;
+  }
+  
+  .announce-item.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
