@@ -1,3 +1,14 @@
+---
+description: A short guide to Plastic Memories "Interaction Mode" and a "lost" demo.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/image12.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+  - Unity Demo
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

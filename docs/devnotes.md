@@ -1,3 +1,11 @@
+---
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 **HoodedTissue, Project Leader** \- When I first started this project by myself all the way back in 2020, I honestly never thought that it would be completed. I thought it’d just be another one of the countless translation projects that get dropped and left untranslated, and that I’d be the one asshole that gave people hope and let them down. Yet here I am, with an entire team and a translated game just two years later. It’s been an incredible journey, and I can’t thank everyone involved enough for all that they have done. If you’re sad about seeing our project come to a close, fret not, as we are planning on transitioning into scanlating manga. Our first stop is the PlaMemo manga, so look out for what we have in store in the near future\!   
 \~ tissue o(≧▽≦)o
 

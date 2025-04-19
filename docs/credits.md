@@ -1,3 +1,15 @@
+---
+description: Patch and Manual Credits + Special Thanks
+image: https://www.islaexecutionsquad.com/assets/images/steam_library_english.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+  - ShwampBam
+  - HoodedTissue
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

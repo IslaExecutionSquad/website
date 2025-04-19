@@ -1,3 +1,13 @@
+---
+description: A highlighted choice indicates that it grants a point toward the color-coded alternate route for Michiru, Kazuki, Sherry, or Eru. White choices are neutral. Additional effects will be noted when relevant. The assumed effect is a short, unique dialogue set.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/image24.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

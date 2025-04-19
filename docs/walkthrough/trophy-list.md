@@ -1,3 +1,13 @@
+---
+description: Did you need help getting the Leg achievement? We know that's the one you're looking for. Don't lie to me.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/image60.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

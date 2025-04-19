@@ -1,4 +1,14 @@
 ---
+title: Plastic Memories English Patch PC and Linux
+description: The main download page for the Plastic Memories English Patch released by the Isla Execution Squad.
+image: https://www.islaexecutionsquad.com/assets/images/steam_library_english.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PC
+  - Linux
+
 hide:
   - navigation
   - toc
@@ -38,7 +48,7 @@ fetch("https://api.github.com/repos/shaggythecat/PlaMemo-Manual-Files/releases")
         <h3>Linux/Steam Deck</h3>
         <ul>
             <!-- <li><a href="https://lutris.net/games/plastic-memories/">Install using Lutris.</a></li> -->
-            <a href="https://lutris.net/games/plastic-memories/" class="md-button md-button--primary">Install using Lutris.</a>
+            <a href="https://lutris.net/games/plastic-memories/" class="md-button md-button--primary">Install using Lutris</a>
             <p></p>
             <!-- <li>Removed files that will not be seen by the user as the game (download seprately) and patch are automaticly installed by Lutris.</li> -->
             <li>Installation instructions can be found <a href=/install-guide/linux>here</a>.</li>

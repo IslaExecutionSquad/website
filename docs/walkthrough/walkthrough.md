@@ -1,3 +1,13 @@
+---
+description: This section includes explanations of the game’s design, direction, and choice system to assist with reaching 100-percent completion. This includes seeing all route endings, unlocking all EXTRA menu content, and getting all available content for Isla’s Room. Although specifics of the game experience will not be discussed in exhaustive detail, referential and thematic spoilers will be described without caution or regard as needed.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/icon.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

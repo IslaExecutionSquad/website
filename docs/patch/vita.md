@@ -1,4 +1,14 @@
 ---
+title: Plastic Memories English Patch PC and Linux
+description: The main download page for the Plastic Memories English Patch released by the Isla Execution Squad.
+image: https://www.islaexecutionsquad.com/assets/images/vitadl.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - Vita
+
 hide:
   - navigation
   - toc

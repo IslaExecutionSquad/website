@@ -1,3 +1,13 @@
+---
+description: This section explains how Isla Route choices are organized, how points and rewards work, and highlights that only point totals, not event order, affect the ending.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/icon.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }

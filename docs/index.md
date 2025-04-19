@@ -1,6 +1,6 @@
 ---
-title: Home
-description: The front page of IES.
+title: 
+description: The front page for IES projects.
 image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
 keywords:
   - manga

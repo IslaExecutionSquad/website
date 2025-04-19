@@ -1,10 +1,20 @@
+---
+description: This is what to expect when you finish the game for the first time.
+image: https://www.islaexecutionsquad.com/assets/images/trophies/image70.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Visual Novel
+  - PS Vita
+  - PlayStation Vita
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }
 </style>
 # Post-Isla Route Completion
 
-- Upon your first Isla route completion, regardless of ending, two quality of life changes will be granted: Isla’s Room and Prologue Skip  
+- Upon your first Isla route completion, regardless of ending, two quality of life changes will be granted: Isla’s Room and Prologue Skip.
 - Isla’s Room will appear as an icon in the bottom left of the main menu and allow immediate access to Interaction Mode. All unlocked costumes can be freely used, and unlocked emotions can be cycled between with the D-Pad’s left and right buttons.
 
 <div class="project-row-patch">

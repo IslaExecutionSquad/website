@@ -486,7 +486,7 @@
     justify-content: center;
     width: 100%;
     max-width: auto;
-    background: rgb(255, 165, 0)
+    /* background: rgb(255, 165, 0) */
 }
 
 .credits-item {
