@@ -1,7 +1,6 @@
 ---
 title:
 description: The front page of IES.
-image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
 keywords:
   - manga
   - IES Novels
@@ -20,6 +19,8 @@ hide:
   - navigation
   - toc
 ---
+<meta property="og:image" content="https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp">
+
 <style>
     h1 { text-align: center; font-weight: bold; font-family: "PirulenRegular", sans-serif; letter-spacing: 1px }
     h2 { text-align: center; font-family: "PirulenRegular", sans-serif; letter-spacing: 1px; }
