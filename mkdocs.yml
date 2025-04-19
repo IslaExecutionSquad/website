@@ -46,7 +46,6 @@ theme:
         name: Light mode
       primary: custom
   features:
-    # - navigation.footer
     - navigation.top
     - navigation.tabs
     - navigation.expand
@@ -57,6 +56,7 @@ theme:
     - navigation.indexes
     - content.footnote.tooltips
     - announce.dismiss
+  
   logo: assets/logo.png
   favicon: assets/logo.png
   icon:
@@ -96,8 +96,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  # - toc:
-  #     permalink: true
 
 extra_css:
   - stylesheets/extra.css
@@ -109,3 +107,7 @@ extra_javascript:
 
 repo_url: https://discord.gg/Cpshet4QYH
 repo_name: <h3>Join our Discord!</h3>
+
+plugins:
+  - meta:
+      enabled: true

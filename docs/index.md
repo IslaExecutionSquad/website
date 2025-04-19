@@ -1,4 +1,21 @@
 ---
+title: Isla Execution Squad
+description: The front page of IES.
+image: /assets/images/steam_library_no_logo.webp
+keywords:
+  - manga
+  - IES Novels
+  - Isla Execution Squad
+  - Plastic Memories
+  - Say to Good-bye
+  - scanlation
+  - Love Lab
+  - Steins;Gate - Theory-filled Heart of the Sweet Honey
+  - Tari Tari
+  - Mini Anthology Comics
+  - Sakurada Reset
+  - Imperfect Girl
+
 hide:
   - navigation
   - toc
