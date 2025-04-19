@@ -1,4 +1,5 @@
 ---
+title: Trophy List
 description: Did you need help getting the Leg achievement? We know that's the one you're looking for. Don't lie to me.
 image: https://www.islaexecutionsquad.com/assets/images/trophies/image60.webp
 keywords:

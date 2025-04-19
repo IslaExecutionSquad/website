@@ -1,4 +1,6 @@
 ---
+title: Developer Notes
+description: Short messages from the dev team.
 keywords:
   - Isla Execution Squad
   - Plastic Memories

@@ -1,6 +1,7 @@
 ---
+title: Isla Route Choices
 description: This section explains how Isla Route choices are organized, how points and rewards work, and highlights that only point totals, not event order, affect the ending.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/icon.webp
+image: https://www.islaexecutionsquad.com/assets/images/image41.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories

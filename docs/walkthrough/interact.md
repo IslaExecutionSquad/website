@@ -1,6 +1,7 @@
 ---
-description: A short guide to Plastic Memories "Interaction Mode" and a "lost" demo.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/image12.webp
+title: Interaction Mode
+description: A short guide to Plastic Memories Interaction Mode and a lost demo.
+image: https://www.islaexecutionsquad.com/assets/images/image12.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories

@@ -1,6 +1,7 @@
 ---
+title: Post-Isla Route Completion
 description: This is what to expect when you finish the game for the first time.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/image70.webp
+image: https://www.islaexecutionsquad.com/assets/images/image70.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories

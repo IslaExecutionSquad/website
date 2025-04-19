@@ -1,6 +1,7 @@
 ---
+title: Common Route Choices
 description: A highlighted choice indicates that it grants a point toward the color-coded alternate route for Michiru, Kazuki, Sherry, or Eru. White choices are neutral. Additional effects will be noted when relevant. The assumed effect is a short, unique dialogue set.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/image24.webp
+image: https://www.islaexecutionsquad.com/assets/images/image24.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories

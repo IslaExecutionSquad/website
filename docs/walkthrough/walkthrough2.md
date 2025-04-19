@@ -1,6 +1,6 @@
 ---
 description: This section outlines the game layout, describing the common route, its choices, and how they lead to either Isla's or alternate heroine routes.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/image24.webp
+image: https://www.islaexecutionsquad.com/assets/images/image24.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories

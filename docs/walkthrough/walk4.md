@@ -1,6 +1,7 @@
 ---
-description: The Isla Route starts after choosing "in love" during the fireworks, leading to events where your choices earn points that unlock one of three endings, along with CGs, diary entries, and costumes.
-image: https://www.islaexecutionsquad.com/assets/images/trophies/image22.webp
+title: Isla Route
+description: The Isla Route starts after choosing in love during the fireworks, leading to events where your choices earn points that unlock one of three endings, along with CGs, diary entries, and costumes.
+image: https://www.islaexecutionsquad.com/assets/images/image22.webp
 keywords:
   - Isla Execution Squad
   - Plastic Memories
