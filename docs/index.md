@@ -1,7 +1,7 @@
 ---
-title: Isla Execution Squad
+title:
 description: The front page of IES.
-image: /assets/images/steam_library_no_logo.webp
+image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
 keywords:
   - manga
   - IES Novels
