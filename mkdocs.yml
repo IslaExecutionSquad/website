@@ -111,3 +111,4 @@ repo_name: <h3>Join our Discord!</h3>
 plugins:
   - meta:
       enabled: true
+  - search:

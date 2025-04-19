@@ -1,0 +1,27 @@
+{% include "partials/_meta.html" %}
+
+{# Fallbacks #}
+{% set title = page.meta.title or config.site_name %}
+{% set description = page.meta.description or config.site_description %}
+{% set image = page.meta.image or config.extra.social_image %}
+{% set url = page.canonical_url or config.site_url %}
+{% set keywords = page.meta.keywords %}
+{% set twitter_card = page.meta.twitter_card or "summary" %}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ image }}">
+<meta property="og:url" content="{{ url }}">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="{{ twitter_card }}">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ image }}">
+
+<!-- Optional: keywords -->
+{% if keywords %}
+<meta name="keywords" content="{{ keywords | join(', ') }}">
+{% endif %}
