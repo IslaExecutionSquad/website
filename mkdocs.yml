@@ -109,6 +109,4 @@ repo_url: https://discord.gg/Cpshet4QYH
 repo_name: <h3>Join our Discord!</h3>
 
 plugins:
-  - meta:
-      enabled: true
   - search:
