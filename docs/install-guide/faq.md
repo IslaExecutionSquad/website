@@ -105,4 +105,4 @@ Check [PlaMemo's VNDB page](https://vndb.org/v19441) to see if there is an activ
 * Steam Deck users will experience stuttering in cutscenes if SteamOS’s frame limiter is enabled. 
 
 !!! question ""
-    Need more help? [Join our Discord!](https://discord.gg/Cpshet4QYH)
+    Need more help? [Join our Discord!](https://discord.gg/A65RE2CMFn)

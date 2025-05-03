@@ -57,7 +57,7 @@ fetch("https://api.github.com/repos/shaggythecat/PlaMemo-Manual-Files/releases")
         <h2>Notice</h2>
         <ul>
             <li>This download is for the patch only. No downloads for the game are hosted on this website.</li>
-            <li>Questions? Check our <a href=/install-guide/faq>FAQ section</a>, or ask in our <a href=https://discord.gg/Cpshet4QYH>Discord</a>!</li>
+            <li>Questions? Check our <a href=/install-guide/faq>FAQ section</a>, or ask in our <a href=https://discord.gg/A65RE2CMFn>Discord</a>!</li>
             <li>Do not download pre-patched versions of the game, there are several sites that distribute the game pre-patched. We cannot confirm if the content distributed by those sites are safe.</li>
         </ul>
     </div>

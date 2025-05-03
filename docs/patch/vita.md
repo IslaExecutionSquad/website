@@ -50,7 +50,7 @@ fetch("https://api.github.com/repos/islaexecutionsquad/website/releases")
             <li>This download is for the patch only. No downloads for the game are hosted on this website.</li>
             <li>Instructions to install the patch can be found <a href=/install-guide/vita>here</a>.</li>
             <!-- <li>Plastic Memories has been delisted the PlayStaton Store.</li> -->
-            <li>Questions? Check our <a href=/install-guide/faq>FAQ section</a>, or ask in our <a href=https://discord.gg/Cpshet4QYH>Discord</a>!</li>
+            <li>Questions? Check our <a href=/install-guide/faq>FAQ section</a>, or ask in our <a href=https://discord.gg/A65RE2CMFn>Discord</a>!</li>
         </ul>
     </div>
     <div class="project-item2">
