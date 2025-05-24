@@ -364,7 +364,7 @@
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(comicInfoText, "text/xml");
         const series = xmlDoc.querySelector("Series")?.textContent || "";
-        document.title = `CBZ Viewer - ${series}`;
+        document.title = `IES Manga - ${series}`;
         const safeSeries = series.toLowerCase().replace(/[^a-z0-9]/g, '-');
         document.getElementById("mangaLogo").src = `/assets/logos/${safeSeries}.png`;
         document.getElementById("mangaLogo").alt = series;
