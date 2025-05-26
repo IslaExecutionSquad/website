@@ -85,7 +85,7 @@
     }
     .controls button:hover,
     #toggleControlsButton:hover {
-      background-color: #b07654;
+      background-color: #9c6949;
     }
     .progress-bar, #downloadProgressBar {
       height: 100%;
@@ -134,7 +134,7 @@
       display: none;
     }
     #downloadChapterButton:hover {
-      background-color: #b07654;
+      background-color: #9c6949;
     }
 </style>
 <style>
@@ -301,18 +301,25 @@
     window.addEventListener('resize', updateHeaderVisibility);
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight') {
-        nextPage();
-      } else if (e.key === 'ArrowLeft') {
-        prevPage();
-      } else if (e.key === 'ArrowUp') {
-        zoomIn();
-      } else if (e.key === 'ArrowDown') {
-        zoomOut();
-      } else if (e.key === '0') {
-        resetZoom();
-      }
-    });
+  const key = e.key.toLowerCase();
+  if (e.shiftKey && (key === 'arrowup' || key === 'w')) {
+    document.getElementById('imageContainer').scrollTop -= 50;
+  } else if (e.shiftKey && (key === 'arrowdown' || key === 's')) {
+    document.getElementById('imageContainer').scrollTop += 50;
+  } else {
+    if (key === 'arrowright' || key === 'd') {
+      nextPage();
+    } else if (key === 'arrowleft' || key === 'a') {
+      prevPage();
+    } else if (key === 'arrowup' || key === 'w') {
+      zoomIn();
+    } else if (key === 'arrowdown' || key === 's') {
+      zoomOut();
+    } else if (key === '0') {
+      resetZoom();
+    }
+  }
+});
 
     async function loadCBZ(path) {
       const response = await fetch(path);
