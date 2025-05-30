@@ -59,34 +59,34 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
     const links = [
-        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", //Banner 1
-        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 2
-        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 3
-        "https://mangadex.org/title/64897926-3836-4307-a89d-86fb4d4ae4af/steins-gate-hiyoku-renri-no-sweets-honey", // Banner 4
-        "/patch", // Banner 5
-        "https://mangadex.org/title/b65df83a-afc3-43c9-8bc5-0ba45ea55ed7/tari-tari", // Banner 6
-        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 7
-        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 8
-        "/patch", // Banner 9
-        "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 17 - Yeah weird placement
-        "https://mangadex.org/title/7673f29d-9a4c-43aa-86f8-6136c181cc31/plastic-memories-say-to-good-bye", // Banner 10
-        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
-        "https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology", // Banner 12
-        "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
-        "https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab", // Banner 14
-        // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
-        "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 16
+        // "", //Banner 1
+        // "", // Banner 2
+        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 3
+        // "", // Banner 4
+        // "/patch", // Banner 5
+        // "", // Banner 6
+        // "", // Banner 7
+        // "", // Banner 8
+        // "/patch", // Banner 9
+        // "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 17 - Yeah weird placement
+        // "", // Banner 10
+        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
+        // "", // Banner 12
+        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
+        // "", // Banner 14
+        // // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
+        // "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 16
     ];
 
-    document.querySelectorAll(".carousel-image").forEach((img, index) => {
-        const actualIndex = index % links.length;
-        img.addEventListener("click", function () {
-            window.open(links[actualIndex], "_blank");
-        });
+//     document.querySelectorAll(".carousel-image").forEach((img, index) => {
+//         const actualIndex = index % links.length;
+//         img.addEventListener("click", function () {
+//             window.open(links[actualIndex], "_blank");
+//         });
 
-        img.style.cursor = "pointer";
-    });
-});
+//         img.style.cursor = "pointer";
+//     });
+// });
 </script>
 # Our Translation Projects
 <div class="carousel">
@@ -142,31 +142,31 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="project-row">
   <div class="project-item">
     <p>Plastic Memories: Say to Good-bye</p>
-    <a href="https://mangadex.org/title/7673f29d-9a4c-43aa-86f8-6136c181cc31/plastic-memories-say-to-good-bye">
+    <!-- <a href=""> -->
       <img src="assets/images/pmstgb.webp" alt="Plastic Memories: Say to Good-bye" class="project-img">
     </a>
   </div>
   <div class="project-item">
     <p>Steins;Gate - Theory-filled Heart of the Sweet Honey</p>
-    <a href="https://mangadex.org/title/64897926-3836-4307-a89d-86fb4d4ae4af/steins-gate-hiyoku-renri-no-sweets-honey">
+    <!-- <a href=""> -->
       <img src="assets/images/sg.webp" alt="Steins;Gate" class="project-img">
     </a>
   </div>
     <div class="project-item">
     <p>Tari Tari</p>
-    <a href="https://mangadex.org/title/b65df83a-afc3-43c9-8bc5-0ba45ea55ed7/tari-tari">
+    <!-- <a href=""> -->
       <img src="assets/images/tt.webp" alt="Tari Tari" class="project-img">
     </a>
   </div>
   <div class="project-item">
     <p>Plastic Memories Mini Anthology Comics</p>
-    <a href="https://mangadex.org/title/bfe71e5b-b403-42aa-8745-f83c8e5a5ab9/plastic-memories-mini-comic-anthology">
+    <!-- <a href=""> -->
       <img src="assets/images/pmmca.webp" alt="Plastic Memories Mini Comic Anthology" class="project-img">
     </a>
   </div>
   <div class="project-item">
     <p>Love Lab</p>
-    <a href="https://mangadex.org/title/ca98fe66-7b88-49a8-83b0-511fca029237/love-lab">
+    <!-- <a href=""> -->
       <img src="assets/images/ll.webp" alt="Love Lab" class="project-img">
     </a>
   </div>
