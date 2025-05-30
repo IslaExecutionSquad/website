@@ -52,6 +52,10 @@
       overflow: auto;
     }
     img {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
       transition: transform 0.2s ease;
       display: block;
       cursor: default;
@@ -85,7 +89,7 @@
     }
     .controls button:hover,
     #toggleControlsButton:hover {
-      background-color: #9c6949;
+      background-color: #b07654;
     }
     .progress-bar, #downloadProgressBar {
       height: 100%;
@@ -134,7 +138,7 @@
       display: none;
     }
     #downloadChapterButton:hover {
-      background-color: #9c6949;
+      background-color: #b07654;
     }
 </style>
 <style>
@@ -187,7 +191,7 @@
     <img id="mangaImage" src="" alt="Manga page">
   </div>
 
-  <div id="progressBar" class="progress-bar"></div>
+  <div id="progressBar" class="progress-bar" style="position: fixed; bottom: 0; left: 0; width: 0%; height: 4px; z-index: 15;"></div>
 
   <script>
     const urlParams = new URLSearchParams(window.location.search);
@@ -299,6 +303,21 @@
     }
 
     window.addEventListener('resize', updateHeaderVisibility);
+
+window.addEventListener('wheel', (e) => {
+  const container = document.getElementById('imageContainer');
+  if (e.shiftKey) {
+    container.scrollTop += e.deltaY;
+  } else {
+    if (e.deltaY < 0) {
+      zoom += 0.1;
+    } else {
+      zoom = Math.max(1, zoom - 0.1);
+    }
+    updateImage();
+  }
+  e.preventDefault();
+}, { passive: false });
 
     document.addEventListener('keydown', (e) => {
   const key = e.key.toLowerCase();
@@ -492,6 +511,17 @@
         if (btn) btn.style.display = "inline-block";
         }
     });
+
+    document.getElementById("imageContainer").addEventListener("click", (e) => {
+  if (window.innerWidth >= 768) {
+    const middle = window.innerWidth / 2;
+    if (e.clientX < middle) {
+      prevPage();
+    } else {
+      nextPage();
+    }
+  }
+});
 
     console.log(`Loading CBZ file: ${cbzPath}`);
     loadCBZ(cbzPath);
