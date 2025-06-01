@@ -280,6 +280,6 @@ document.addEventListener("DOMContentLoaded", function () {
   </p>
 
 <p>If you are a rights holder and wish to contact us regarding content hosted on this site, please review our DMCA policy at:<br>
-<strong><a href="https://novels.islaexecutionsquad.com/digital-millennium-copyright-act-dmca-policy/" style="color: #66ccff;">www.islaexecutionsquad.com/digital-millennium-copyright-act-dmca-policy/</a></strong>
+<strong><a href="https://novels.islaexecutionsquad.com/copyright/" style="color: #66ccff;">www.islaexecutionsquad.com/copyright/</a></strong>
 </p>
 </section>
