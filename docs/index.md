@@ -57,26 +57,26 @@ document.addEventListener("DOMContentLoaded", function () {
         track.appendChild(clone);
     }
 });
-document.addEventListener("DOMContentLoaded", function () {
-    const links = [
-        // "", //Banner 1
-        // "", // Banner 2
-        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 3
-        // "", // Banner 4
-        // "/patch", // Banner 5
-        // "", // Banner 6
-        // "", // Banner 7
-        // "", // Banner 8
-        // "/patch", // Banner 9
-        // "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 17 - Yeah weird placement
-        // "", // Banner 10
-        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
-        // "", // Banner 12
-        // "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
-        // "", // Banner 14
-        // // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
-        // "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 16
-    ];
+// document.addEventListener("DOMContentLoaded", function () {
+//     const links = [
+//         "", //Banner 1
+//         "", // Banner 2
+//         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 3
+//         "", // Banner 4
+//         "/patch", // Banner 5
+//         "", // Banner 6
+//         "", // Banner 7
+//         "", // Banner 8
+//         "/patch", // Banner 9
+//         "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 17 - Yeah weird placement
+//         "", // Banner 10
+//         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 11
+//         "", // Banner 12
+//         "https://novels.islaexecutionsquad.com/sakurada-reset/", // Banner 13
+//         "", // Banner 14
+//         // "https://www.youtube.com/watch?v=Kob0G2hE8IY" // Banner 15 - HE-MAN HEYEAYEA SONG FOR 10 HOURS
+//         "https://novels.islaexecutionsquad.com/imperfect-girl/", // Banner 16
+//     ];
 
 //     document.querySelectorAll(".carousel-image").forEach((img, index) => {
 //         const actualIndex = index % links.length;
@@ -87,6 +87,17 @@ document.addEventListener("DOMContentLoaded", function () {
 //         img.style.cursor = "pointer";
 //     });
 // });
+  function dismissDMCA() {
+    document.getElementById('dmcaNotice').style.display = 'none';
+    localStorage.setItem('dmcaNoticeDismissed', 'true');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    if (localStorage.getItem('dmcaNoticeDismissed') === 'true') {
+      const notice = document.getElementById('dmcaNotice');
+      if (notice) notice.style.display = 'none';
+    }
+  });
 </script>
 # Our Translation Projects
 <div class="carousel">
@@ -127,6 +138,53 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="assets/images/banner16.webp" class="carousel-image" alt="Banner 16">
   </div>
 </div>
+
+<style>
+  .dmca-notice {
+    max-width: 1900px;
+    margin: 60px auto;
+    color: #eee;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    font-family: sans-serif;
+  }
+
+  .dmca-notice h2,
+  .dmca-notice h3 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .dmca-notice .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #444;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    line-height: 1;
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .dmca-notice .close-btn:hover {
+    background: #666;
+  }
+
+  .dmca-notice blockquote {
+    border-left: 4px solid #888;
+    padding-left: 15px;
+    color: #ccc;
+  }
+
+  .dmca-notice ul {
+    padding-left: 20px;
+  }
+</style>
 
 ## Visual Novel
 <div class="project-row">
@@ -187,3 +245,41 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 </div>
+
+<section class="dmca-notice" id="dmcaNotice">
+  <button class="close-btn" onclick="dismissDMCA()">×</button>
+
+  <h2>Regarding MangaDex Links</h2>
+
+  <p><strong>On May 29th, 2025</strong>, <a href="https://novels.islaexecutionsquad.com/">IES Novels</a> received a <strong>DMCA notice</strong> from <em>'Remove Your Media LLC'</em> on behalf of <em>'WEBTOON Entertainment Inc.'</em>, filed February 9th, 2025.</p>
+
+  <p>You might be thinking: <em>"Why did IES Novels receive a DMCA Notice from WEBTOON?"</em><br>
+    We received the DMCA for having <strong>our MangaDex group page linked</strong> on IES Novels' front page.</p>
+
+  <p>I am very disheartened that <em>'Remove Your Media LLC'</em> and <em>'WEBTOON Entertainment Inc.'</em> have decided to take this approach, as IES has <strong>not directly linked to nor worked on any WEBTOON content.</strong></p>
+
+  <h3 style="text-align: left;">What happens now:</h3>
+  <ul>
+    <li>As of <strong>May 30th, 2025</strong>, all MangaDex links have been removed from IES Novels and the main IES website. This is to (hopefully) comply with and avoid any further action from the parties mentioned above.</li>
+    <li>While the main IES site has <strong>not received a DMCA notice</strong>, it may still be targeted due to our group page being linked in the footer and our scanlations being featured on the homepage.</li>
+    <li><strong>No counter claim will be filed</strong> due to the personal information required for the process.</li>
+    <li>As a result, IES Novels has been delisted from Google and likely other search engines.</li>
+  </ul>
+
+  <p>IES and IES Novels will continue as usual. However, manga content will <strong>not be linked</strong> from our sites for the time being.</p>
+
+  <h3 style="text-align: left;">Full Claim Received</h3>
+  <blockquote>
+    <li>Date of claim: Feb 9, 2025</li>
+    <li>Rightsholder represented: Remove Your Media LLC</li>
+    <li>Description of claim: Copyrighted webtoons published by WEBTOON Entertainment Inc. Sites are back linking illegal webtoon scanlation sites. This is contributory infringement. Pursuant to 17 USC 512(c)(3)(A)(ii) the official website for 'Licensed Webtoon Comics' includes a commulative episode list at the below url:</li>
+  </blockquote>
+
+  <p>The notice can also be found on the Lumen Database:<br>
+    <a href="https://lumendatabase.org/notices/48914507" target="_blank" style="color: #66ccff;">https://lumendatabase.org/notices/48914507</a>
+  </p>
+
+<p>If you are a rights holder and wish to contact us regarding content hosted on this site, please review our DMCA policy at:<br>
+<strong><a href="https://novels.islaexecutionsquad.com/digital-millennium-copyright-act-dmca-policy/" style="color: #66ccff;">www.islaexecutionsquad.com/digital-millennium-copyright-act-dmca-policy/</a></strong>
+</p>
+</section>
