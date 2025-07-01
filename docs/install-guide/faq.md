@@ -1,3 +1,11 @@
+---
+title: Frequently Asked Questions - Isla Execution Squad
+description: You have a question. This page has the awnswer. Maybe.
+image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+---
 <script>
     document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".md-ellipsis").forEach(el => {
@@ -10,7 +18,7 @@
 <style>
   h1 { text-align: center; }
 </style>
-# Frequently Asked Questions  
+# Frequently Asked Questions
 ## Can I run Plastic Memories in Vita3k?  
 As of 11/2023 the game now functions with minor issues in Vita3k for PC and Android with the Vulkan renderer.   
 If running on PC, please use the PC conversion of Plastic Memories.

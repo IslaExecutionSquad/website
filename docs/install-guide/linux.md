@@ -1,3 +1,12 @@
+---
+title: 
+description: Plastic Memories Linux/Steam Deck Install Guide
+image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
+keywords:
+  - Isla Execution Squad
+  - Plastic Memories
+  - Steam Deck
+---
 <style>
   h1 { text-align: center; }
   h2 { text-align: center; }
