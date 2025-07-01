@@ -16,6 +16,7 @@ hide:
         <h3>Volume 1</h3>
         <ul>
             <li><a href="https://mangadex.org/chapter/17f2c86d-5cd7-431f-bae5-b24988bd22fa">Chapter 13</a></li>
+            <li><a href="/assets/manga/reader.html?file=/assets/manga/lovelab/vol1/ch13.cbz">Chapter 13</a></li>
             <li><a href="https://mangadex.org/chapter/35cea89d-02fc-4bba-96c2-6b3dc8701ce1">Chapter 14</a></li>
             <li><a href="https://mangadex.org/chapter/73662ba0-1469-4539-83d0-5c1691209c78">Chapter 15</a></li>
             <li><a href="https://mangadex.org/chapter/13649e69-0628-463f-91e4-cc1d48cf017d">Chapter 16</a></li>
