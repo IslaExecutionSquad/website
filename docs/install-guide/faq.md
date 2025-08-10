@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions - Isla Execution Squad
-description: You have a question. This page has the awnswer. Maybe.
+description: You have a question. This page has the answer. Maybe.
 image: https://www.islaexecutionsquad.com/assets/images/steam_library_no_logo.webp
 keywords:
   - Isla Execution Squad
