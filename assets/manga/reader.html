@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IES Manga</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <style>
+    @font-face {
+      font-family: 'PirulenRegular';
+      src: url('/assets/webFonts/PirulenRegular/font.woff2') format('woff2'),
+           url('/assets/webFonts/PirulenRegular/font.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body {
+      margin: 0;
+      background: url('/assets/images/bg_dark.png') repeat;
+      color: #eee;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    #logoContainer {
+      position: fixed;
+      top: 10px;
+      left: 20px;
+      z-index: 12;
+      text-align: left;
+    }
+    #siteLogo, #mangaLogo {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    @media (min-width: 768px) {
+      #siteLogo {
+        font-family: 'PirulenRegular', sans-serif;
+        color: #9c6949;
+        font-size: 28px;
+        display: block;
+      }
+      #mangaLogo {
+        display: block;
+        max-height: 160px;
+        max-width: 400px;
+        margin-top: 5px;
+      }
+    }
+    #imageContainer {
+      display: none;
+      justify-content: center;
+      align-items: start;
+      height: 100vh;
+      overflow: auto;
+    }
+    img {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      transition: transform 0.2s ease;
+      display: block;
+      cursor: default;
+      margin: auto;
+      height: auto;
+      width: auto;
+      max-height: 100%;
+      transform-origin: top center;
+    }
+    .controls {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      border-radius: 8px;
+      z-index: 10;
+      display: none;
+      gap: 10px;
+    }
+    .controls button,
+    #toggleControlsButton {
+      font-size: 16px;
+      padding: 6px 14px;
+      border: none;
+      border-radius: 4px;
+      background-color: #9c6949;
+      color: white;
+      cursor: pointer;
+    }
+    .controls button:hover,
+    #toggleControlsButton:hover {
+      background-color: #b07654;
+    }
+    .progress-bar, #downloadProgressBar {
+      height: 100%;
+      background-color: #9c6949;
+      transition: width 0.3s ease;
+    }
+    #downloadProgressContainer {
+      width: 100%;
+      top: 0;
+      height: 20px;
+      background: #222;
+      position: fixed;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 10px;
+      box-sizing: border-box;
+      font-size: 12px;
+    }
+    #downloadProgressText {
+      color: #eee;
+      margin-left: 8px;
+      white-space: nowrap;
+    }
+    #toggleControlsButton {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 11;
+    }
+  #downloadChapterButton {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      font-size: 16px;
+      padding: 6px 14px;
+      border: none;
+      border-radius: 4px;
+      background-color: #9c6949;
+      color: white;
+      cursor: pointer;
+      z-index: 11;
+      display: none;
+    }
+    #downloadChapterButton:hover {
+      background-color: #b07654;
+    }
+</style>
+<style>
+    #chapterSelectContainer {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      z-index: 12;
+      display: none;
+    }
+    #chapterSelect {
+      font-size: 16px;
+      padding: 5px 10px;
+      background: #111;
+      color: #fff;
+      border: 1px solid #555;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chapterSelectContainer">
+    <ul id="chapterList" style="list-style:none; margin:0; padding:0; font-family: 'PirulenRegular', sans-serif; text-align: right;"PirulenRegular', sans-serif;"></ul>
+  </div>
+  <div id="logoContainer">
+    <div id="siteLogo">IES Manga</div>
+    <img id="mangaLogo" src="" alt="Manga Logo" />
+  </div>
+
+  <div id="downloadProgressContainer">
+    <div id="downloadProgressBar" style="width: 0%;"></div>
+    <div id="downloadProgressText">0%</div>
+  </div>
+
+  <button id="toggleControlsButton" onclick="toggleControls()">Toggle UI</button>
+  <button id="downloadChapterButton" onclick="downloadChapter()">Download Chapter</button>
+
+  <div class="controls" id="controlButtons">
+    <button onclick="prevPage()">⟵ Prev</button>
+    <button onclick="nextPage()">Next ⟶</button>
+    <button onclick="zoomIn()">Zoom +</button>
+    <button onclick="zoomOut()">Zoom -</button>
+    <button onclick="resetZoom()">Reset</button>
+    <button onclick="toggleFullscreen()">Fullscreen</button>
+  </div>
+
+  <div id="imageContainer">
+    <img id="mangaImage" src="" alt="Manga page">
+  </div>
+
+  <div id="progressBar" class="progress-bar" style="position: fixed; bottom: 0; left: 0; width: 0%; height: 4px; z-index: 15;"></div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const cbzPath = urlParams.get('file');
+    const storageKey = `cbz-viewer-${cbzPath}`;
+
+    if (!cbzPath) {
+      document.body.innerHTML = "<p>No CBZ file specified. Use ?file=path/to/file.cbz</p>";
+      throw new Error("Missing file param");
+    }
+
+    let images = [], index = 0, zoom = 1;
+    let startX, startY, scrollLeft, scrollTop, isDragging = false;
+
+    function toggleControls() {
+  const controls = document.getElementById("controlButtons");
+  const isMobile = window.innerWidth < 768;
+  if (isMobile) return;
+  controls.style.display = controls.style.display === "none" ? "flex" : "none";
+}
+
+    function updateHeaderVisibility() {
+  const siteLogo = document.getElementById("siteLogo");
+  const mangaLogo = document.getElementById("mangaLogo");
+  const chapterList = document.getElementById("chapterSelectContainer");
+  const downloadButton = document.getElementById("downloadChapterButton");
+  const show = window.innerWidth >= 768 && zoom === 1;
+
+  siteLogo.style.opacity = show ? '1' : '0';
+  mangaLogo.style.opacity = show ? '1' : '0';
+  chapterList.style.opacity = show ? '1' : '0';
+  if (downloadButton) downloadButton.style.opacity = show ? '1' : '0';
+}
+
+    function updateImage() {
+  const img = document.getElementById("mangaImage");
+  img.onload = () => {
+    // Adjust zoom for mobile: fit to width
+    if (window.innerWidth < 768) {
+      zoom = window.innerWidth / img.naturalWidth;
+    }
+    img.style.transform = `scale(${zoom})`;
+    updateHeaderVisibility();
+  };
+  img.src = images[index];
+      localStorage.setItem(storageKey, index);
+      updateProgressBar();
+    }
+
+    function prevPage() {
+  if (index > 0) {
+    index--;
+    updateImage();
+    preloadImages();
+  } else {
+    // Try previous chapter if available
+    const prev = document.querySelector('#chapterList a[href]:not([href=""])');
+    const links = Array.from(document.querySelectorAll('#chapterList a[href]'));
+    const current = links.findIndex(link => link.style.color === 'rgb(255, 169, 77)');
+    if (current > 0) window.location.href = links[current - 1].href;
+  }
+}
+
+    function nextPage() {
+  if (index < images.length - 1) {
+    index++;
+    updateImage();
+    preloadImages();
+  } else {
+    // Try next chapter if available
+    const links = Array.from(document.querySelectorAll('#chapterList a[href]'));
+    const current = links.findIndex(link => link.style.color === 'rgb(255, 169, 77)');
+    if (current < links.length - 1) window.location.href = links[current + 1].href;
+  }
+}
+
+    function zoomIn() {
+      zoom += 0.1;
+      updateImage();
+    }
+
+    function zoomOut() {
+      zoom = Math.max(1, zoom - 0.1);
+      updateImage();
+    }
+
+    function resetZoom() {
+      zoom = 1;
+      updateImage();
+    }
+
+    function preloadImages() {
+      if (images[index + 1]) new Image().src = images[index + 1];
+      if (images[index + 2]) new Image().src = images[index + 2];
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    function updateProgressBar() {
+      const bar = document.getElementById("progressBar");
+      const percentage = ((index + 1) / images.length) * 100;
+      bar.style.width = `${percentage}%`;
+    }
+
+    window.addEventListener('resize', updateHeaderVisibility);
+
+window.addEventListener('wheel', (e) => {
+  const container = document.getElementById('imageContainer');
+  if (e.shiftKey) {
+    container.scrollTop += e.deltaY;
+  } else {
+    if (e.deltaY < 0) {
+      zoom += 0.1;
+    } else {
+      zoom = Math.max(1, zoom - 0.1);
+    }
+    updateImage();
+  }
+  e.preventDefault();
+}, { passive: false });
+
+    document.addEventListener('keydown', (e) => {
+  const key = e.key.toLowerCase();
+  if (e.shiftKey && (key === 'arrowup' || key === 'w')) {
+    document.getElementById('imageContainer').scrollTop -= 50;
+  } else if (e.shiftKey && (key === 'arrowdown' || key === 's')) {
+    document.getElementById('imageContainer').scrollTop += 50;
+  } else {
+    if (key === 'arrowright' || key === 'd') {
+      nextPage();
+    } else if (key === 'arrowleft' || key === 'a') {
+      prevPage();
+    } else if (key === 'arrowup' || key === 'w') {
+      zoomIn();
+    } else if (key === 'arrowdown' || key === 's') {
+      zoomOut();
+    } else if (key === '0') {
+      resetZoom();
+    }
+  }
+});
+
+    async function loadCBZ(path) {
+      const response = await fetch(path);
+      const contentLength = response.headers.get('content-length');
+      const total = contentLength ? parseInt(contentLength, 10) : 0;
+
+      const reader = response.body.getReader();
+      let loaded = 0;
+      let chunks = [];
+      const startTime = Date.now();
+
+      const progressBar = document.getElementById("downloadProgressBar");
+      const progressText = document.getElementById("downloadProgressText");
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        loaded += value.length;
+
+        if (total) {
+          const percent = Math.floor((loaded / total) * 100);
+          const elapsed = (Date.now() - startTime) / 1000;
+          const speed = loaded / elapsed;
+          const eta = (total - loaded) / speed;
+          const formatSize = size => {
+            return size > 1024 * 1024
+              ? (size / (1024 * 1024)).toFixed(2) + ' MB'
+              : (size / 1024).toFixed(2) + ' KB';
+          };
+          progressBar.style.width = `${percent}%`;
+          progressText.textContent = `${percent}% (${formatSize(loaded)} / ${formatSize(total)}) - ETA: ${eta.toFixed(1)}s`;
+        }
+      }
+
+      const blob = new Blob(chunks);
+      const arrayBuffer = await blob.arrayBuffer();
+
+      const zip = await JSZip.loadAsync(arrayBuffer);
+
+      const comicInfoFile = Object.values(zip.files).find(f => f.name.toLowerCase().includes("comicinfo.xml"));
+      if (comicInfoFile) {
+        const comicInfoText = await comicInfoFile.async("text");
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(comicInfoText, "text/xml");
+        const series = xmlDoc.querySelector("Series")?.textContent || "";
+        document.title = `IES Manga - ${series}`;
+        const safeSeries = series.toLowerCase().replace(/[^a-z0-9]/g, '-');
+        document.getElementById("mangaLogo").src = `/assets/logos/${safeSeries}.png`;
+        document.getElementById("mangaLogo").alt = series;
+        const xmlPath = `/assets/manga/${safeSeries}.xml`;
+        loadChapterList(series);
+        console.log(`Loading XML file: ${xmlPath}`);
+      }
+
+      const entries = Object.values(zip.files)
+        .filter(file => /\.(jpe?g|png|gif|webp)$/i.test(file.name))
+        .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+
+      images = await Promise.all(entries.map(file =>
+        file.async("blob").then(blob => URL.createObjectURL(blob))
+      ));
+
+      const savedIndex = localStorage.getItem(storageKey);
+      index = savedIndex ? parseInt(savedIndex) : 0;
+
+      document.getElementById("downloadProgressContainer").style.display = "none";
+      document.getElementById("imageContainer").style.display = "flex";
+      updateHeaderVisibility();
+      document.getElementById("controlButtons").style.display = "flex";
+
+      preloadImages();
+      updateImage();
+    }
+
+    document.addEventListener('touchstart', e => {
+    if (e.touches.length === 1) {
+        startX = e.touches[0].clientX;
+    }
+    });
+
+    document.addEventListener('touchend', e => {
+    if (e.changedTouches.length === 1) {
+        const endX = e.changedTouches[0].clientX;
+        const deltaX = endX - startX;
+        if (deltaX > 50) {
+        prevPage();
+        } else if (deltaX < -50) {
+        nextPage();
+        }
+    }
+    });
+    let initialDistance = null;
+
+    function getDistance(touches) {
+    const [touch1, touch2] = touches;
+    const dx = touch2.clientX - touch1.clientX;
+    const dy = touch2.clientY - touch1.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    document.addEventListener('touchmove', e => {
+    if (e.touches.length === 2) {
+        const newDistance = getDistance(e.touches);
+        if (initialDistance) {
+        const delta = newDistance - initialDistance;
+        if (Math.abs(delta) > 10) {
+            zoom += delta > 0 ? 0.02 : -0.02;
+            zoom = Math.max(1, zoom);
+            updateImage();
+        }
+        }
+        initialDistance = newDistance;
+    }
+    });
+
+    document.addEventListener('touchend', e => {
+    if (e.touches.length < 2) {
+        initialDistance = null;
+    }
+    });
+
+    async function loadChapterList(seriesName) {
+      const safeSeriesName = seriesName.toLowerCase().replace(/[^a-z0-9]/g, '-');
+      const xmlPath = `/assets/manga/${safeSeriesName}.xml`;
+      console.log(`Attempting to load chapter list from: ${xmlPath}`);
+
+      const chapterList = document.getElementById("chapterList");
+      const container = document.getElementById("chapterSelectContainer");
+      container.style.display = 'block';
+      chapterList.innerHTML = `<li style='color:#888'>Loading ${xmlPath}...</li>`;
+
+      try {
+        const response = await fetch(xmlPath);
+        if (!response.ok) throw new Error("Chapter list not found");
+
+        const text = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(text, "text/xml");
+        const chapters = [...xmlDoc.querySelectorAll("Chapter")];
+
+        const currentPath = window.location.pathname + window.location.search;
+        chapterList.innerHTML = chapters.map(chap => {
+          const title = chap.getAttribute("title");
+          const url = chap.getAttribute("url");
+          const isCurrent = url === currentPath;
+          return `<li style='margin-bottom:5px;'><a href='${url}' style='color: ${isCurrent ? "#ffa94d" : "#fff"}; text-decoration: none;'>${title}</a></li>`;
+        }).join('');
+      } catch (err) {
+        console.error("Failed to load chapter list:", err);
+        chapterList.innerHTML = `<li style='color:red'>Error loading chapters</li>`;
+      }
+    }
+
+    function downloadChapter() {
+        const link = document.createElement('a');
+        link.href = cbzPath;
+        const seriesName = document.getElementById("mangaLogo").alt || "chapter";
+        const chapterLinks = Array.from(document.querySelectorAll('#chapterList a[href]'));
+        const currentChapter = chapterLinks.find(link => link.style.color === 'rgb(255, 169, 77)');
+        const chapterName = currentChapter ? currentChapter.textContent.trim() : "Unknown";
+
+        link.download = `${seriesName} - ${chapterName} - Isla Execution Squad.cbz`;
+        link.click();
+            }
+  
+    window.addEventListener('load', () => {
+        if (window.innerWidth >= 768) {
+        const btn = document.getElementById("downloadChapterButton");
+        if (btn) btn.style.display = "inline-block";
+        }
+    });
+
+    document.getElementById("imageContainer").addEventListener("click", (e) => {
+  if (window.innerWidth >= 768) {
+    const middle = window.innerWidth / 2;
+    if (e.clientX < middle) {
+      prevPage();
+    } else {
+      nextPage();
+    }
+  }
+});
+
+    console.log(`Loading CBZ file: ${cbzPath}`);
+    loadCBZ(cbzPath);
+  </script>
+</body>
+</html>
