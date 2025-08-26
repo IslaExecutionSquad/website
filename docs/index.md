@@ -241,7 +241,13 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="project-item">
     <p>Imperfect Girl</p>
     <a href="https://novels.islaexecutionsquad.com/imperfect-girl/">
-      <img class="project-img" src="assets/images/Imperfect_girl.webp" alt="Sakurada Reset">
+      <img class="project-img" src="assets/images/Imperfect_girl.webp" alt="Imperfect Girl">
+    </a>
+  </div>
+  <div class="project-item">
+    <p>Just Because!</p>
+    <a href="https://novels.islaexecutionsquad.com/just-because/">
+      <img class="project-img" src="assets/images/justbecause.webp" alt="Just Because!">
     </a>
   </div>
 </div>
