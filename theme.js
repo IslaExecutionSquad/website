@@ -39,6 +39,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     applyStoredTheme();
 
+    document.querySelectorAll(".project-img").forEach((img) => {
+        img.addEventListener("mouseenter", () => {
+            img.style.transition = "transform 0.1s ease-out";
+        });
+        img.addEventListener("mousemove", (e) => {
+            const rect = img.getBoundingClientRect();
+            const x = (e.clientX - rect.left) / rect.width - 0.5;
+            const y = (e.clientY - rect.top) / rect.height - 0.5;
+            img.style.transform = `scale(1.08) rotateX(${y * -14}deg) rotateY(${x * 14}deg)`;
+        });
+        img.addEventListener("mouseleave", () => {
+            img.style.transition = "transform 0.4s ease-out";
+            img.style.transform = "";
+        });
+    });
+
 // document.addEventListener("DOMContentLoaded", function () {
 //     // Select the active nav item
 //     const activeNavItem = document.querySelector(".md-nav__item--active");
