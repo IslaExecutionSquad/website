@@ -49,8 +49,8 @@ keywords:
     <div class="content">
         <div class="game-container">
             <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-            <div class="fullscreen-btn"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-            <img src="monday.webp" alt="Monday Image" class="top-left-image">
+            <div class="fullscreen-btn"><img src="/walkthrough/interact/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+            <img src="/walkthrough/interact/monday.webp" alt="Monday Image" class="top-left-image">
         </div>
     </div>
     <script type='text/javascript'>
@@ -58,12 +58,12 @@ keywords:
             TOTAL_MEMORY: 268435456,
             errorhandler: null,
             compatibilitycheck: null,
-            dataUrl: "Release/webgl.data",
-            codeUrl: "Release/webgl.js",
-            memUrl: "Release/webgl.mem"
+            dataUrl: "/walkthrough/interact/Release/webgl.data",
+            codeUrl: "/walkthrough/interact/Release/webgl.js",
+            memUrl: "/walkthrough/interact/Release/webgl.mem"
         };
     </script>
-    <script src="Release/UnityLoader.js"></script>
+    <script src="/walkthrough/interact/Release/UnityLoader.js"></script>
 </body>
 <!-- ??? tip "Interaction Mode Demo"
     Cool huh? This is unplayable on the offical website for the Plastic Memories Visual Novel. If you found this you get a cookie. Let us know in our Discord what you think! -->
